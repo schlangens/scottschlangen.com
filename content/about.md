@@ -1,20 +1,16 @@
 +++
 title = "About"
 description = "Few words about my self"
-date = "2022-11-08T12:43:38+03:00"
-aliases = ["about", "about-us", "about-kirill", "contact"]
+aliases = ["about", "about-us", "contact"]
 +++
 
-As a DevOps Engineer, my core goal is to build effective relationships between development and sys ops teams. I provide guidance, advice, and collaborate with developers to identify the best solutions and practices. DevOps, to me, is a set of approaches and best practices that bridge the gap between software development and operations.
+As an up-and-coming Junior DevOps Engineer, my primary focus revolves around fostering strong connections between development and sys ops teams. I take pride in offering guidance, valuable insights, and actively collaborating with developers to uncover optimal solutions and industry-recommended practices. To me, DevOps embodies a collection of methodologies and best practices that seamlessly bridge the divide between software development and operations.
 
-On a daily basis, I work with a range of technologies, including AWS, Kubernetes (k8s), Helm, GitOps, the Argo family, Terraform, and Linux. However, I recognize that technology is constantly evolving. That's why I'm passionate about sharing fresh knowledge and lending a helping hand to those who need it.
+In my daily routine, I engage with a diverse array of cutting-edge technologies, encompassing AWS, Kubernetes (k8s), Terraform, and Linux. I wholeheartedly acknowledge that the technology landscape is in a constant state of flux. This is why I'm deeply enthusiastic about not only staying up-to-date with the latest advancements but also extending a helping hand to those seeking support and knowledge in this dynamic field.
 
-In addition to my work as a DevOps Engineer, I actively contribute to the tech community. I have spoken at the DevOops conference, taught IT courses at [Otus](https://otus.ru/lessons/infrastrukturnaya-platforma-na-osnove-kubernetes/) online school, and written articles on exciting IT technologies and approaches for popular platforms such as [Medium](https://kksudo.medium.com/), [Dzone](https://dzone.com/users/4670608/kk-sudo.html), [HackerNoon](https://hackernoon.com/u/kksudo), and [Habr](https://habr.com/ru/users/kksudo/). I am also the author of IT courses on [SkillFactory school](https://skillfactory.ru/devops-engineer), as I believe in the importance of continuous learning and skill development in the IT field.
-
-As a [Certified Kubernetes Administrator (CKA)](https://www.credly.com/badges/aab758e9-2059-4928-a262-2eeb0b2f4d3f?source=linked_in_profile), I bring expertise and proficiency in managing Kubernetes clusters to ensure efficient container orchestration. The [AWS Certified Solutions Architect - Associate certification](https://www.credly.com/badges/345fd0e0-150a-43d4-ae54-0ffc872e44e4/) validates my expertise in designing and deploying scalable, highly available, and fault-tolerant applications on the AWS platform.
+I recently obtained my [AWS Certified Solutions Architect - Associate certification](https://www.credly.com/badges/a528e6b6-e581-42e0-b902-0c4d2ef7de43/public_url) which validates my expertise in designing and deploying scalable, highly available, and fault-tolerant applications on the AWS platform.
 
 ---
-One of the most valuable lessons I've learned through sharing knowledge is that I learn just as much as those I teach. 
-I am a proud member of the "I want to know everything" and "I'm happy to share what I've already learned" groups, fostering a culture of curiosity and knowledge exchange.
+One of the most significant insights I've gained from sharing knowledge is that I'm constantly learning alongside those I'm teaching. I take great pride in being a part of both the "I crave knowledge" and the "I'm eager to share what I've discovered" communities, which cultivate an atmosphere of curiosity and the free exchange of information.
 
-Together, let's embrace the world of DevOps with love and collaborate towards building innovative and efficient solutions.
+Let's embark on a journey into the realm of DevOps with enthusiasm and collaborate to craft inventive and streamlined solutions together.
