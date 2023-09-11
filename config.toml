@@ -35,8 +35,8 @@ enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
 # Git Commit in Footer, uncomment the line below to enable it
-commit = "https://github.com/kksudo/kazakov.xyz/tree/"
-powered_by = true
+# commit = "https://github.com/kksudo/kazakov.xyz/tree/"
+# powered_by = true
 # Series see also post count
 maxSeeAlsoItems = 5
 
