@@ -1,5 +1,5 @@
-baseurl = "https://kazakov.xyz"
-title = "DevOps with love"
+baseurl = "https://ssmedia.tv"
+title = "Scott Schlangen"
 theme = "hugo-coder-forked"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -21,9 +21,9 @@ filename = 'sitemap.xml'
 priority = 0.5
 
 [params]
-author = "Kirill Kazakov"
+author = "Scott Schlangen"
 info = ["Full Stack DevOps and Magician"]
-description = "Kirill Kazakov's personal page"
+description = "Scott Schlangen's personal page"
 keywords = "blog,businesscard,personal,devops,kksudo,kirill,kazakov"
 gravatar = "k@kazakov.xyz"
 
@@ -49,31 +49,19 @@ maxSeeAlsoItems = 5
 name = "Github"
 icon = "fa fa-github fa-2x"
 weight = 1
-url = "https://github.com/kksudo/"
-target = "_blank"
-[[params.social]]
-name = "Gitlab"
-icon = "fa fa-gitlab fa-2x"
-weight = 2
-url = "https://gitlab.com/kksudo"
-target = "_blank"
-[[params.social]]
-name = "Instagram"
-icon = "fa fa-instagram fa-2x"
-weight = 3
-url = "https://www.instagram.com/kk_sudo/"
+url = "https://github.com/schlangens"
 target = "_blank"
 [[params.social]]
 name = "Linkedin"
 icon = "fa fa-linkedin fa-2x"
 weight = 5
-url = "https://www.linkedin.com/in/kazakovk/"
+url = "https://www.linkedin.com/in/scottschlangen/"
 target = "_blank"
 [[params.social]]
-name = "k@kazakov.xyz"
+name = "sschlangen@gmail.com"
 icon = "fa fa-envelope fa-2x"
 weight = 6
-url = "mailto:k@kazakov.xyz"
+url = "mailto:sschlangen@gmail.com"
 target = "_blank"
 
 # Menu links
