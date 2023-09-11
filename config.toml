@@ -10,7 +10,6 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "kksudo"
 enableGitInfo = true
 enableRobotsTXT = true
 
@@ -22,7 +21,7 @@ priority = 0.5
 
 [params]
 author = "Scott Schlangen"
-info = ["Full Stack DevOps and Magician"]
+info = ["Full Stack DevOps and System Administrator"]
 description = "Scott Schlangens personal page"
 keywords = "blog,businesscard,personal,devops"
 gravatar = "sschlangen@gmail.com"
