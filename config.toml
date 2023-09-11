@@ -25,7 +25,7 @@ author = "Scott Schlangen"
 info = ["Full Stack DevOps and Magician"]
 description = "Scott Schlangen's personal page"
 keywords = "blog,businesscard,personal,devops,kksudo,kirill,kazakov"
-gravatar = "k@kazakov.xyz"
+gravatar = "sschlangen@gmail.com"
 
 faviconSVG = "/img/favicon.svg"
 favicon_32 = "/img/favicon.png"
