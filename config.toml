@@ -23,14 +23,14 @@ priority = 0.5
 [params]
 author = "Scott Schlangen"
 info = ["Full Stack DevOps and Magician"]
-description = "Scott Schlangen's personal page"
-keywords = "blog,businesscard,personal,devops,kksudo,kirill,kazakov"
+description = "Scott Schlangens personal page"
+keywords = "blog,businesscard,personal,devops"
 gravatar = "sschlangen@gmail.com"
 
 faviconSVG = "/img/favicon.svg"
 favicon_32 = "/img/favicon.png"
 
-since = 2010
+since = 2012
 enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
