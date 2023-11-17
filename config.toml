@@ -47,13 +47,13 @@ maxSeeAlsoItems = 5
 [[params.social]]
 name = "Website"
 icon = "fa fa-beer fa-2x"
-weight = 2
+weight = 1
 url = "https://scottschlangen.com"
 target = "_blank"
 [[params.social]]
 name = "Github"
 icon = "fa fa-github fa-2x"
-weight = 1
+weight = 2
 url = "https://github.com/schlangens"
 target = "_blank"
 [[params.social]]
