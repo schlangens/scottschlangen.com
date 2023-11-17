@@ -45,6 +45,12 @@ maxSeeAlsoItems = 5
 
 # Social links
 [[params.social]]
+name = "Website"
+icon = "fa fa-beer fa-2x"
+weight = 6
+url = "https://scottschlangen.com"
+target = "_blank"
+[[params.social]]
 name = "Github"
 icon = "fa fa-github fa-2x"
 weight = 1
@@ -57,11 +63,13 @@ weight = 5
 url = "https://www.linkedin.com/in/scottschlangen/"
 target = "_blank"
 [[params.social]]
-name = "sschlangen@gmail.com"
+name = "scott@scottschlangen.com"
 icon = "fa fa-envelope fa-2x"
 weight = 6
-url = "mailto:sschlangen@gmail.com"
+url = "mailto:scott@scottschlangen.com"
 target = "_blank"
+
+
 
 # Menu links
 [[languages.en.menu.main]]
