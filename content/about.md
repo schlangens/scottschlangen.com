@@ -10,5 +10,5 @@ I am known to be a collaborative team player with the capacity to assist in deve
 
 Perhaps most important, I am a resilient individual with strong management and people skills, personal values, integrity, and technical knowledge; able to contribute to the design of computer security architectures by helping incorporate cybersecurity into each architecture's design.
 
----
+
 
