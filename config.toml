@@ -47,7 +47,7 @@ maxSeeAlsoItems = 5
 [[params.social]]
 name = "Website"
 icon = "fa fa-beer fa-2x"
-weight = 6
+weight = 2
 url = "https://scottschlangen.com"
 target = "_blank"
 [[params.social]]
@@ -59,13 +59,13 @@ target = "_blank"
 [[params.social]]
 name = "Linkedin"
 icon = "fa fa-linkedin fa-2x"
-weight = 5
+weight = 3
 url = "https://www.linkedin.com/in/scottschlangen/"
 target = "_blank"
 [[params.social]]
 name = "scott@scottschlangen.com"
 icon = "fa fa-envelope fa-2x"
-weight = 6
+weight = 4
 url = "mailto:scott@scottschlangen.com"
 target = "_blank"
 
