@@ -16,6 +16,10 @@ Enjoy the simplicity of Google search without the distractions of ads. A clean a
 
 Dive into a collection of IT tools designed for efficiency and effectiveness. From diagnostics to optimizations, these tools are here to make your tech life easier.
 
+## [Support:](https://support.ssfile.xyz)🌐 
+
+Contact me if you would like support first.
+
 ---
 
 Feel free to reach out to me if you have any questions or just want to geek out together:
