@@ -80,8 +80,9 @@ url  = "/"
 name = "About"
 weight = 2
 url = "about/"
-name = "Tools-Projects"
-weight = 2
-url = "tools/"
+// Remove the conflicting keys
+// name = "Tools-Projects"
+// weight = 2
+// url = "tools/"
 
 
