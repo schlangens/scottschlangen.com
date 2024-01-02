@@ -80,5 +80,8 @@ url  = "/"
 name = "About"
 weight = 2
 url = "about/"
+name = "Tools-Projects"
+weight = 2
+url = "tools/"
 
 
