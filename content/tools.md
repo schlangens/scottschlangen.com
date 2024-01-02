@@ -1,3 +1,9 @@
++++
+title = "Tools"
+description = "Nerdy Tools and Projects"
+aliases = ["tools", "projects"]
++++
+
 # Nerdy Tools and Projects 🛠️
 
 Welcome to my nerdy corner of the internet! Here are a couple of cool projects that I've worked on:
