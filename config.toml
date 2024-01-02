@@ -78,5 +78,9 @@ url = "about/"
 name = "Tools & Projects"
 weight = 2
 url = "tools/"
+[[languages.en.menu.main]]
+name = "Request Remote Support from Me"
+weight = 3
+url = "support/"
 
 
