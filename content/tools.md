@@ -36,7 +36,7 @@ Follow these steps to get instant support:
 
 Feel free to reach out if you have any questions or concerns.
 
-## [Support Link (https://support.scottschlangen.com):](https://support.scottschlangen.com/)🌐 
+## [Support Link (https://support.scottschlangen.com):](https://support.scottschlangen.com/downloads/)🌐 
 
 
 Feel free to reach out to me if you have any questions or just want to geek out together:
