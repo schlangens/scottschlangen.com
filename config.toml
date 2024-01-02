@@ -81,7 +81,7 @@ name = "About"
 weight = 2
 url = "about/"
 [[languages.en.menu.main]]
-name = "Tools"
+name = "Tools & Projects"
 weight = 2
 url = "tools/"
 
