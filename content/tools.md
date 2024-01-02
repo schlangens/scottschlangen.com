@@ -20,7 +20,7 @@ Dive into a collection of IT tools designed for efficiency and effectiveness. Fr
 Follow these steps to get instant support:
 Navigate to the following in new tab of Chrome/Edge/Firefox:
 
-🌐 [https://support.scottschlangen.com/downloads]🌐 
+🌐 [https://support.scottschlangen.com/downloads](https://support.scottschlangen.com/downloads)🌐 
 
 1. Under **Portable Instant Support Clients**, click the link for the operating system you are using. For most users, it will be Windows (64-bit).
 
