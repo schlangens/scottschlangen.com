@@ -79,8 +79,8 @@ name = "Tools & Projects"
 weight = 2
 url = "tools/"
 [[languages.en.menu.main]]
-name = "Request Remote Support from Me"
+name = "Request Remote Support"
 weight = 3
-url = "suppot/"
+url = "support/"
 
 
