@@ -10,6 +10,7 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+disqusShortname = "kksudo"
 enableGitInfo = true
 enableRobotsTXT = true
 
@@ -34,8 +35,8 @@ enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
 # Git Commit in Footer, uncomment the line below to enable it
-# commit = "https://github.com/kksudo/kazakov.xyz/tree/"
-# powered_by = true
+commit = "https://github.com/kksudo/kazakov.xyz/tree/"
+powered_by = true
 # Series see also post count
 maxSeeAlsoItems = 5
 
@@ -70,15 +71,18 @@ url = "mailto:scott@scottschlangen.com"
 target = "_blank"
 
 
-
 # Menu links
-
+[[languages.en.menu.main]]
+name = "Home"
+weight = 1
+url  = "/"
 [[languages.en.menu.main]]
 name = "About"
 weight = 2
 url = "about/"
-
 [[languages.en.menu.main]]
-name = "Tools/Projects"
-weight = 3
+name = "Tools"
+weight = 2
 url = "tools/"
+
+
