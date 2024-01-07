@@ -76,11 +76,16 @@ weight = 2
 url = "about/"
 [[languages.en.menu.main]]
 name = "Tools & Projects"
-weight = 2
+weight = 3
 url = "tools/"
 [[languages.en.menu.main]]
 name = "Request Remote Support"
-weight = 3
+weight = 4
 url = "support/"
+[[languages.en.menu.main]]
+name = "Resume/CV"
+weight = 5
+url = "cv/"
+
 
 
