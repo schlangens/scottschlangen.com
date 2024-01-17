@@ -66,10 +66,10 @@ _Lifelong learner with a big picture mindset, exceptional technical management s
 _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University, Purdue University Indianapolis; **_Security_** **_Analyst_**, Rook Security, Indianapolis, IN.
 
 ## Education and Certifications
-
 - CompTIA Security+
+- CompTIA Network+
+- Linux Essentials from Linux Professional Institute
 - AWS Solutions Architect, Associate
-- Splunk Certified Power User
 - Fortinet Certified NSE 1,2 & 3 Network Security Associate
 - JNCIA Juniper Networking Associate
 
