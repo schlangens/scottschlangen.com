@@ -77,7 +77,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 
 **Information Security:** Patch Management | Threat Hunting | Vulnerability Assessment | Malware Remediation | Incident Response | Firewalls | VPN | Security Awareness Training | Log Management / Correlation, Risk Assessment | SSP | Security Controls Implementation | Security Testing | System Scanning | System Registration | SADLC (Secure Application Development Life Cycle)
 
-**SecOPS** OSSEC | NESSUS | Microsoft Sentinel SIEM | Canary Tokens | Honeypot
+**SecOPS:** OSSEC | NESSUS | Microsoft Sentinel SIEM | Canary Tokens | Honeypot
 
 **Project Management** CAB | Change Managment | Waterfall | Agile | Managing Resources | Project Contraints | Project Tools and Documentation
 
