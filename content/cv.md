@@ -79,7 +79,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 
 **SecOPS:** OSSEC | NESSUS | Microsoft Sentinel SIEM | Canary Tokens | Honeypot
 
-**Project Management** CAB | Change Managment | Waterfall | Agile | Managing Resources | Project Contraints | Project Tools and Documentation
+**Project Management:** Change Managment | Waterfall | Agile | Managing Resources | Project Contraints | Project Tools and Documentation
 
 **Administration Experience**: Windows OS, Server 2019 | Linux, RHEL, CentOS, Rocky, Alma, PopOS, Ubuntu | 0365 | Azure Portal Admin | Microsoft Teams (VOIP) | 3cx (VOIP) | Juniper | Cisco | Fortigate | Ubiquiti | WSUS | Hyper-V | Cloud Architecture | AWS Cloud | AWS | Amazon Web Services | Cloud Data 
 
