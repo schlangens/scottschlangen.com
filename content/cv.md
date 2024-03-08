@@ -43,7 +43,7 @@ _Lifelong learner with a big-picture mindset, exceptional technical management s
 
 **Systems Engineer**
 
-- Maximized productivity and provided vital structure by building out infrastructure in AWS. Exhibited resourcefulness by assisting in the implementation of ISO-27001. Leveraged experience and functional knowledge to help research and deploy SIEM. Served as an integral member of the Incident Response Team with responsibility for containment and remediation efforts.
+- Maximized productivity and provided vital structure by building out infrastructure in AWS. Exhibited resourcefulness by assisting in the implementation of ISO-27001. Leveraged experience and functional knowledge to help research and deploy SIEM. Served as an integral member of the Incident Response Team, responsible for containment and remediation efforts.
 - Streamlined processes, clarified expectations, and improved consistency by promoting end-user education by implementing Security Awareness Training and Phishing Campaigns.
 - Increased personal and professional effectiveness by managing, monitoring, and maintaining on-premises and cloud-based servers.
 - Exercised detailed analysis and judgment to review IT systems and applications for large enterprise environments.
@@ -66,30 +66,31 @@ _Lifelong learner with a big-picture mindset, exceptional technical management s
 _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University, Purdue University Indianapolis; **_Security_** **_Analyst_**, Rook Security, Indianapolis, IN.
 
 ## Education and Certifications
-- CompTIA Project+
+
 - CompTIA Security+
 - CompTIA Network+
-- Linux Essentials from LPI
+- CompTIA Project+
 - AWS Solutions Architect, Associate
+- Linux Essentials from LPI
 - JNCIA Juniper Networking Associate
 
 ## Professional and Technical Proficiencies
 
-**Information Security:** Patch Management | Threat Hunting | Vulnerability Assessment | Malware Remediation | Incident Response | Firewalls | VPN | Security Awareness Training | Log Management / Correlation, Risk Assessment | SSP | Security Controls Implementation | Security Testing | System Scanning | System Registration | SADLC (Secure Application Development Life Cycle)
+**Information Security:** Patch Management | Threat Hunting | Vulnerability Assessment | Malware Remediation | Firewalls | VPN | Security Awareness Training | Log Management / Correlation, Risk Assessment | System Scanning | System Registration | SADLC (Secure Application Development Life Cycle)
 
 **SecOPS:** OSSEC | NESSUS | Microsoft Sentinel SIEM | Canary Tokens | Honeypot
 
-**Project Management:** Change Managment | Waterfall | Agile | Managing Resources | Project Contraints | Project Tools and Documentation
+**Incident Response:** Suricata | Rita | Sysmon | Velociraptor
+
+**Perimeter Defense:** GoPhish | Email Security Controls
 
 **Administration Experience**: Windows OS, Server 2019 | Linux, RHEL, CentOS, Rocky, Alma, PopOS, Ubuntu | 0365 | Azure Portal Admin | Microsoft Teams (VOIP) | 3cx (VOIP) | Juniper | Cisco | Fortigate | Ubiquiti | WSUS | Hyper-V | Cloud Architecture | AWS Cloud | AWS | Amazon Web Services | Cloud Data 
 
 **Software / Application / Vendor Experience**: Microsoft Sentinel |  Tanium | Splunk | Connectwise Automate | Bit-titan | Google Workspace | Datto | Veeam | KnowB4 |  AWS
 
-**Virtualization**: Hyper-V | VMware | ESXi | Proxmox
-
-**Deployment and Configuration Experience**: Active Directory | WSUS | Chocolatey Package Management | DNS | Network Shares | Group Policy | RBAC | DHCP | USMT
-
 **Programming Experience**: HTML / CSS / JS | Python | Bash | Powershell | SQL | Scripting
+
+**Project Management:** Change Managment | Waterfall | Agile | Managing Resources | Project Contraints | Project Tools and Documentation
 
 ## Professional Affiliations
 
