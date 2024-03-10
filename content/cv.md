@@ -82,7 +82,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 
 **Incident Response:** Suricata | Rita | Sysmon | Velociraptor
 
-**Perimeter Defense:** GoPhish | Email Security Controls
+**Perimeter Defense:** GoPhish | Email Security Controls | DKIM | SPF | DMARC | BIMI (Brand Indicators for Message Identification)
 
 **Administration Experience**: Windows OS, Server 2019 | Linux, RHEL, CentOS, Rocky, Alma, PopOS, Ubuntu | 0365 | Azure Portal Admin | Microsoft Teams (VOIP) | 3cx (VOIP) | Juniper | Cisco | Fortigate | Ubiquiti | WSUS | Hyper-V | Cloud Architecture | AWS Cloud | AWS | Amazon Web Services | Cloud Data 
 
