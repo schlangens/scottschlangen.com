@@ -70,6 +70,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 - CompTIA Security+
 - CompTIA Network+
 - CompTIA Project+
+- AWS Cloud Practitioner
 - AWS Solutions Architect, Associate
 - Linux Essentials from LPI
 - JNCIA Juniper Networking Associate
