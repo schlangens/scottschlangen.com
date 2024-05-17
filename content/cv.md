@@ -55,7 +55,7 @@ _Lifelong learner with a big-picture mindset, exceptional technical management s
 - Harmonized operations by configuring and administering firewall rules, applications, VPN, and IDS / IPS settings to ensure a secure perimeter defense. Ensured quality execution by analyzing and applying established information security principles and practices. Embraced responsibility for reviewing IT systems and applications for large enterprise environments.
 - Oversaw and supported containment and remediation efforts as an integral member of the Incident Response Team.
 - Provided insightful vision and guidance by implementing Security Awareness Training and Phishing Campaigns to promote and advance end-user education.
-- Employed refined relationship-building skills and collaborative mindset while supporting, communicating, and assisting organizations secure and operate business IT.
+- Employed refined relationship-building skills and a collaborative mindset while supporting, communicating, and assisting organizations in securing and operating business IT.
 
 ### Everstream Solutions | Indianapolis, IN
 
@@ -72,6 +72,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 - CompTIA Project+
 - AWS Cloud Practitioner
 - AWS Solutions Architect, Associate
+- Azure Fundamentals (AZ-900)
 - Linux Essentials from LPI
 - JNCIA Juniper Networking Associate
 
