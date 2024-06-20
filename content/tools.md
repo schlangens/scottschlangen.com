@@ -16,10 +16,6 @@ This tool scrapes event information from Microsoft Learn and Ultimate Windows Se
 
 Enjoy the simplicity of Google search without the distractions of ads. A clean and ad-free searching experience for the true nerds!
 
-## [IT Tools](https://tools.scottschlangen.com) 🔧
 
-Dive into a collection of IT tools designed for efficiency and effectiveness. From diagnostics to optimizations, these tools are here to make your tech life easier.
-
-Feel free to reach out if you have any questions or concerns.
 
 **Contact: [scott@scottschlangen.com](mailto:scott@scottschlangen.com)** 📧
