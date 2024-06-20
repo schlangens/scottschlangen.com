@@ -70,6 +70,9 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 - CompTIA Security+
 - CompTIA Network+
 - CompTIA Project+
+- CompTIA Cloud+
+- CompTIA Cloud Admin Professional 
+- CompTIA Secure Cloud Professional 
 - AWS Cloud Practitioner
 - AWS Solutions Architect, Associate
 - Azure Fundamentals (AZ-900)
