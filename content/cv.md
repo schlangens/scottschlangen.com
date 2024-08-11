@@ -66,7 +66,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 
 ## Education and Certifications
 
-
+- Certified CyberDefender (CCD)
 - CompTIA Security+
 - CompTIA Network+
 - CompTIA Project+
