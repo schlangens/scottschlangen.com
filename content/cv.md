@@ -82,8 +82,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 
 ## Professional and Technical Proficiencies
 
-**Information Security:** Patch Management | Threat Hunting | Vulnerability Assessment | Malware Remediation | Firewalls | VPN | Security Awareness Training | Log Management / Correlation, Risk Assessment | System Scanning | System Registration | SADLC (Secure Application Development Life Cycle)
-
+**Information Security:** Patch Management | Threat Hunting | Vulnerability Assessment | Malware Remediation | Firewalls | VPN | Security Awareness Training | Log Management / Correlation, Risk Assessment | System Scanning | System Registration
 **Digital Forensics:** Evidence Collecion | Disk Forensics | USB Forensics | Memory Forensics | Network Forensics | Kape | FTK Imager | Dumpit | Volatility | Wireshark | PCAP Analysis 
 
 **SecOPS:** OSSEC | NESSUS | Microsoft Sentinel SIEM | Canary Tokens | Honeypot
