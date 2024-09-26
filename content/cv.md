@@ -22,45 +22,56 @@ _Lifelong learner with a big-picture mindset, exceptional technical management s
 
 **Cyber Threat Analyst**
 
-- Monitor network traffic and security alerts to identify potential cyber threats.
-- Investigate alerts from security tools and escalate potential incidents.
-- Analyze log files from various sources (e.g., host logs, network traffic logs, firewall logs, and IDS logs) to identify possible security threats.
-- Analyze security incidents to enhance the alert catalog.
-- Investigate malicious activity to determine exploited weaknesses, methods of exploitation, and effects on systems and information.
-- Analyze data sources, security tools, and threat trends to lead security monitoring and identify attacks against the enterprise.
+- Monitor network traffic and security alerts to identify and investigate potential cyber threats and incidents from customer sensors.
+- Lead investigations from detection to resolution, owning the entire process without tiered escalation.
+- Analyze log files from multiple sources (host logs, network traffic, firewall logs, IDS logs) to identify, assess, and respond to security incidents.
+- Communicate and report security incidents to customers within SLA timelines, ensuring clear and prompt updates.
+- Proactively hunt for threats, analyze emerging trends, and enhance the organization's detection capabilities.
 
+---
 
 ### MIE Medical Information Engineering
 
 **DevOps Engineer**
 
-- Built a strong foundation for success by managing infrastructure with code using Terraform and Ansible. Demonstrated leadership by implementing and enforcing IAM policies, ensuring only authorized users accessed critical resources.
-- Enhanced application security and reduced vulnerabilities by integrating automated security testing into the development pipeline, working closely with security teams.
-- Ensured compliance and security best practices by managing secret and sensitive data with HashiCorp Vault, exercising sound judgment and discretion.
+- Established a solid foundation for success by managing infrastructure through code with Terraform and Ansible, streamlining processes and reducing manual intervention.
+- Demonstrated leadership by implementing and enforcing IAM policies to safeguard critical resources, ensuring compliance and security best practices.
+- Enhanced application security by integrating automated testing within the development pipeline, mitigating vulnerabilities early in the process.
+- Managed sensitive data with HashiCorp Vault, ensuring secure access and compliance with industry standards.
+
+---
 
 ### eVideon by Vibe Health
 
 **Systems Engineer**
 
-- Maximized productivity and provided vital structure by building infrastructure in AWS. Assisted in the implementation of ISO-27001 and helped research and deploy SIEM. Played a key role in the Incident Response Team, handling containment and remediation efforts.
-- Streamlined processes and improved consistency by promoting end-user education through Security Awareness Training and Phishing Campaigns.
-- Enhanced effectiveness by managing, monitoring, and maintaining on-premises and cloud-based servers.
-- Applied detailed analysis and judgment to review IT systems and applications for large enterprise environments.
+- Maximized productivity by building out infrastructure in AWS, ensuring a scalable and reliable environment for operations.
+- Played a key role in the ISO-27001 implementation, aligning security practices with international standards.
+- Assisted in researching and deploying SIEM systems to enhance the organization’s threat detection and response capabilities.
+- Acted as an integral member of the Incident Response Team, leading containment and remediation efforts to mitigate security incidents.
+- Delivered Security Awareness Training and Phishing Campaigns, promoting cybersecurity best practices across the organization.
 
-### 4eos - Netgain Technologies | Fort Wayne IN
+---
+
+### 4EOS - Netgain Technologies | Fort Wayne, IN
 
 **System Administrator**
 
-- Streamlined operations by configuring and managing firewall rules, applications, VPNs, and IDS/IPS settings to ensure secure perimeter defense. Applied established information security principles to ensure quality execution. Reviewed IT systems and applications for large enterprise environments.
-- Led containment and remediation efforts as a key member of the Incident Response Team
-- Enhanced security awareness by implementing Security Awareness Training and Phishing Campaigns, promoting end-user education
-- Utilized strong relationship-building skills and a collaborative mindset to support, communicate, and assist organizations in securing and operating business IT systems.
+- Streamlined operations by configuring and administering firewall rules, applications, VPNs, and IDS/IPS settings to ensure secure perimeter defense.
+- Reviewed IT systems and applications for large enterprise environments, applying security best practices and principles to protect critical data.
+- Led containment and remediation efforts as a key member of the Incident Response Team, responding swiftly to mitigate security breaches.
+- Promoted end-user security education through Security Awareness Training and Phishing Campaigns, reducing vulnerability to social engineering threats.
+- Collaborated with clients to secure and optimize business IT operations, applying strong relationship-building and technical expertise.
+
+---
 
 ### Everstream Solutions | Indianapolis, IN
 
 **Network Operations Center Engineer**
 
-- Quickly excelled in the role by managing the repair of customers' circuit issues from start to finish. Demonstrated commitment by monitoring networks, responding to alarms, and effectively communicating with customers to resolve impacts.
+- Spearheaded the resolution of customers' circuit issues, managing the entire process from alert detection to resolution.
+- Monitored network infrastructure, responding to alarms and proactively addressing network issues while ensuring effective customer communication.
+- Consistently met and exceeded performance targets, delivering high-quality service in a fast-paced environment.
 
 _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University, Purdue University Indianapolis; **_Security_** **_Analyst_**, Rook Security, Indianapolis, IN.
 
