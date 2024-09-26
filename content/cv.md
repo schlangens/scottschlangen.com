@@ -28,7 +28,7 @@ _Lifelong learner with a big-picture mindset, exceptional technical management s
 - Communicate and report security incidents to customers within SLA timelines, ensuring clear and prompt updates.
 - Proactively hunt for threats, analyze emerging trends, and enhance the organization's detection capabilities.
 
----
+
 
 ### MIE Medical Information Engineering
 
@@ -39,7 +39,7 @@ _Lifelong learner with a big-picture mindset, exceptional technical management s
 - Enhanced application security by integrating automated testing within the development pipeline, mitigating vulnerabilities early in the process.
 - Managed sensitive data with HashiCorp Vault, ensuring secure access and compliance with industry standards.
 
----
+
 
 ### eVideon by Vibe Health
 
@@ -51,7 +51,7 @@ _Lifelong learner with a big-picture mindset, exceptional technical management s
 - Acted as an integral member of the Incident Response Team, leading containment and remediation efforts to mitigate security incidents.
 - Delivered Security Awareness Training and Phishing Campaigns, promoting cybersecurity best practices across the organization.
 
----
+
 
 ### 4EOS - Netgain Technologies | Fort Wayne, IN
 
@@ -63,7 +63,7 @@ _Lifelong learner with a big-picture mindset, exceptional technical management s
 - Promoted end-user security education through Security Awareness Training and Phishing Campaigns, reducing vulnerability to social engineering threats.
 - Collaborated with clients to secure and optimize business IT operations, applying strong relationship-building and technical expertise.
 
----
+
 
 ### Everstream Solutions | Indianapolis, IN
 
