@@ -19,8 +19,6 @@ A driven cybersecurity professional with a strong background in IT, transitionin
 - Communicate and report security incidents to customers within SLA timelines, ensuring clear and prompt updates.
 - Proactively hunt for threats, analyze emerging trends, and enhance the organization's detection capabilities.
 
-
-
 ### MIE Medical Information Engineering
 
 **DevOps Engineer**
@@ -29,8 +27,6 @@ A driven cybersecurity professional with a strong background in IT, transitionin
 - Demonstrated leadership by implementing and enforcing IAM policies to safeguard critical resources, ensuring compliance and security best practices.
 - Enhanced application security by integrating automated testing within the development pipeline, mitigating vulnerabilities early in the process.
 - Managed sensitive data with HashiCorp Vault, ensuring secure access and compliance with industry standards.
-
-
 
 ### eVideon by Vibe Health
 
@@ -42,8 +38,6 @@ A driven cybersecurity professional with a strong background in IT, transitionin
 - Acted as an integral member of the Incident Response Team, leading containment and remediation efforts to mitigate security incidents.
 - Delivered Security Awareness Training and Phishing Campaigns, promoting cybersecurity best practices across the organization.
 
-
-
 ### 4EOS - Netgain Technologies 
 
 **System Administrator**
@@ -53,8 +47,6 @@ A driven cybersecurity professional with a strong background in IT, transitionin
 - Led containment and remediation efforts as a key member of the Incident Response Team, responding swiftly to mitigate security breaches.
 - Promoted end-user security education through Security Awareness Training and Phishing Campaigns, reducing vulnerability to social engineering threats.
 - Collaborated with clients to secure and optimize business IT operations, applying strong relationship-building and technical expertise.
-
-
 
 ### Everstream Solutions 
 
@@ -68,6 +60,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 
 ## Education and Certifications
 
+- Blue Team Level 1 (BTL1)
 - Certified CyberDefender (CCD)
 - CompTIA Security+
 - CompTIA Network+
@@ -84,19 +77,19 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 
 ## Professional and Technical Proficiencies
 
-**Information Security:** Patch Management | Threat Hunting | Vulnerability Assessment | Malware Remediation | Firewalls | VPN | Security Awareness Training | Log Management / Correlation, Risk Assessment | System Scanning | System Registration
+**Information Security:** Patch Management | Threat Hunting | Vulnerability Assessment | Malware Remediation | Firewalls | VPN | Security Awareness Training | Log Management / Correlation | Risk Assessment | System Scanning | System Registration | Threat Intelligence | SIEM (Microsoft Sentinel, Splunk) | CyberChef | MISP | Active Directory
 
-**Digital Forensics:** Evidence Collecion | Disk Forensics | USB Forensics | Memory Forensics | Network Forensics | Kape | FTK Imager | Dumpit | Volatility | Wireshark | PCAP Analysis 
+**Digital Forensics:** : Evidence Collection | Disk Forensics | USB Forensics | Memory Forensics | Network Forensics | KAPE | FTK Imager | Dumpit | Volatility | Wireshark | PCAP Analysis | Windows File Analyzer | Scalpel | Browser History Viewer | Browser History Capturer | Jumplist Explorer | Autopsy | TheHive | ProcDump
 
-**SecOPS:** OSSEC | NESSUS | Microsoft Sentinel SIEM | Canary Tokens | Honeypot
+**SecOPS:** OSSEC | NESSUS | Microsoft Sentinel SIEM | Canary Tokens | Honeypot | Event Viewer | Sigma | Splunk | Cyber Kill Chain | ATT&CK Framework | PECMD | OpenCTI
 
-**Incident Response:** Suricata | Rita | Sysmon | Velociraptor
+**Incident Response:** Suricata | Rita | Sysmon | Velociraptor | Incident Response Planning | Phishing Analysis | Case Management | URL2PNG | VirusTotal | WannaBrowser | Digital Forensics Workflow Tools | PICERL
 
-**Perimeter Defense:** GoPhish | Email Security Controls | DKIM | SPF | DMARC | BIMI (Brand Indicators for Message Identification)
+**Perimeter Defense:** GoPhish | Email Security Controls | DKIM | SPF | DMARC | BIMI (Brand Indicators for Message Identification) | MISP | DomainTools
 
-**Administration Experience**: Windows OS, Server 2019 | Linux, RHEL, CentOS, Rocky, Alma, PopOS, Ubuntu | 0365 | Azure Portal Admin | Microsoft Teams (VOIP) | 3cx (VOIP) | Juniper | Cisco | Fortigate | Ubiquiti | WSUS | Hyper-V | Cloud Architecture | AWS Cloud | AWS | Amazon Web Services | Cloud Data 
+**Administration Experience**: Windows OS, Server 2019 | Linux (RHEL, CentOS, Rocky, Alma, PopOS, Ubuntu) | O365 | Azure Portal Admin | Microsoft Teams (VOIP) | 3cx (VOIP) | Juniper | Cisco | Fortigate | Ubiquiti | WSUS | Hyper-V | Cloud Architecture | AWS Cloud | Amazon Web Services | Cloud Data | Powershell | Linux CLI
 
-**Software / Application / Vendor Experience**: Microsoft Sentinel |  Tanium | Splunk | Connectwise Automate | Bit-titan | Google Workspace | Datto | Veeam | KnowB4 |  AWS
+**Software / Application / Vendor Experience**: Microsoft Sentinel | Tanium | Splunk | Connectwise Automate | BitTitan | Google Workspace | Datto | Veeam | KnowBe4 | CyberChef | TheHive | DeepBlueCLI | URL2PNG
 
 **Programming Experience**: HTML / CSS / JS | Python | Bash | Powershell | SQL | Scripting
 
