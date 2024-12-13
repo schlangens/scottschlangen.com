@@ -5,7 +5,7 @@
 - 🐱 GitHub: [schlangens](https://github.com/schlangens)
 - 💼 LinkedIn: [scottschlangen](https://linkedin.com/in/scottschlangen)
 
-A driven cybersecurity professional with a strong background in IT, transitioning from law enforcement to NOC/SOC operations and cloud security. Currently pursuing a Bachelor’s in Cloud Computing, I am committed to continuous learning and innovation in cybersecurity, with plans to advance into a Master’s in Information Assurance.
+A driven cybersecurity professional with a strong background in IT, transitioning from law enforcement in 2012 to NOC/SOC operations as well as cloud security. Currently pursuing a Bachelor’s in Cloud Computing, I am committed to continuous learning and innovation in cybersecurity, with plans to advance into a Master’s in Information Assurance.
 
 ## Career Experience
 
@@ -21,16 +21,16 @@ A driven cybersecurity professional with a strong background in IT, transitionin
 
 ### MIE Medical Information Engineering
 
-**DevOps Engineer**
+**Security Systems Engineer**
 
-- Established a solid foundation for success by managing infrastructure through code with Terraform and Ansible, streamlining processes and reducing manual intervention.
+- Established a solid foundation for success by managing infrastructure through code with Terraform and Ansible, streamlining processes, and reducing manual intervention.
 - Demonstrated leadership by implementing and enforcing IAM policies to safeguard critical resources, ensuring compliance and security best practices.
-- Enhanced application security by integrating automated testing within the development pipeline, mitigating vulnerabilities early in the process.
+- Enhanced application security by integrating automated testing within the development pipeline, mitigating vulnerabilities early.
 - Managed sensitive data with HashiCorp Vault, ensuring secure access and compliance with industry standards.
 
 ### eVideon by Vibe Health
 
-**Systems Engineer**
+**Cloud/Systems Engineer**
 
 - Maximized productivity by building out infrastructure in AWS, ensuring a scalable and reliable environment for operations.
 - Played a key role in the ISO-27001 implementation, aligning security practices with international standards.
@@ -40,7 +40,7 @@ A driven cybersecurity professional with a strong background in IT, transitionin
 
 ### 4EOS - Netgain Technologies 
 
-**System Administrator**
+**System Engineer**
 
 - Streamlined operations by configuring and administering firewall rules, applications, VPNs, and IDS/IPS settings to ensure secure perimeter defense.
 - Reviewed IT systems and applications for large enterprise environments, applying security best practices and principles to protect critical data.
