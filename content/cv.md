@@ -11,7 +11,7 @@ A driven cybersecurity professional with a strong background in IT, transitionin
 
 ### Quadrant Information Security
 
-**Cyber Threat Analyst**
+**Threat Analyst**
 
 - Monitor network traffic and security alerts to identify and investigate potential cyber threats and incidents from customer sensors.
 - Lead investigations from detection to resolution, owning the entire process without tiered escalation.
@@ -30,7 +30,7 @@ A driven cybersecurity professional with a strong background in IT, transitionin
 
 ### eVideon by Vibe Health
 
-**Cloud/Systems Engineer**
+**Cloud Systems Engineer**
 
 - Maximized productivity by building out infrastructure in AWS, ensuring a scalable and reliable environment for operations.
 - Played a key role in the ISO-27001 implementation, aligning security practices with international standards.
