@@ -62,12 +62,15 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 
 - Blue Team Level 1 (BTL1)
 - Certified CyberDefender (CCD)
+- CompTIA CySA+
 - CompTIA Security+
 - CompTIA Network+
 - CompTIA Project+
 - CompTIA Cloud+
 - CompTIA Cloud Admin Professional 
-- CompTIA Secure Cloud Professional 
+- CompTIA Secure Cloud Professional
+- CompTIA Security Analytics Professional – CSAP
+- ITIL 4 Foundation Certificate in IT Service Management
 - AWS Cloud Practitioner
 - AWS Solutions Architect, Associate
 - Azure Fundamentals (AZ-900)
