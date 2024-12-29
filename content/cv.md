@@ -69,7 +69,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 - CompTIA Cloud+
 - CompTIA Cloud Admin Professional 
 - CompTIA Secure Cloud Professional
-- CompTIA Security Analytics Professional – CSAP
+- CompTIA Security Analytics Professional
 - ITIL 4 Foundation Certificate in IT Service Management
 - AWS Cloud Practitioner
 - AWS Solutions Architect, Associate
