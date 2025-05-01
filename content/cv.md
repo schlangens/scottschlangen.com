@@ -61,6 +61,7 @@ _Additional Experience as_ **_NOC Service Desk Technician_**, Indiana University
 ## Education and Certifications
 
 - Ransomware Negotiation and Threat Intelligence (Security Blue Team)
+- BTL1 (Security Blue Team)
 - Certified CyberDefender (CCD)
 - CompTIA CySA+
 - CompTIA Security+
