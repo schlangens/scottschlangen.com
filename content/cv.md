@@ -100,25 +100,48 @@ Bachelor of Science in Cybersecurity | Expected September 2027
 
 ## Professional and Technical Proficiencies
 
-**Information Security:** Patch Management | Threat Hunting | Vulnerability Assessment | Malware Remediation | Firewalls | VPN | Security Awareness Training | Log Management / Correlation | Risk Assessment | System Scanning | System Registration | Threat Intelligence | SIEM (Microsoft Sentinel, Splunk) | CyberChef | MISP | Active Directory | Identity and Access Management | Compliance Management | Security Governance
+**Security & Compliance Frameworks**
+- NIST Cybersecurity Framework (CSF)
+- NIST 800-53 Security Controls
+- NIST Risk Management Framework (RMF)
+- ISO 27001 Information Security Management
+- CIS Critical Security Controls
+- CJIS Security Policy
 
-**Digital Forensics:** Evidence Collection | Disk Forensics | USB Forensics | Memory Forensics | Network Forensics | KAPE | FTK Imager | Dumpit | Volatility | Wireshark | PCAP Analysis | Windows File Analyzer | Scalpel | Browser History Viewer | Browser History Capturer | Jumplist Explorer | Autopsy | TheHive | ProcDump
+**Risk Management & Governance**
+- Enterprise Risk Assessment & Analysis
+- Security Control Implementation & Testing
+- Vulnerability Management Programs
+- Security Policy Development & Enforcement
+- Compliance Auditing & Reporting
+- Third-Party Risk Assessment
+- Business Impact Analysis
 
-**SecOPS:** OSSEC | NESSUS | Microsoft Sentinel SIEM | Canary Tokens | Honeypot | Event Viewer | Sigma | Splunk | Cyber Kill Chain | ATT&CK Framework | PECMD | OpenCTI
+**Identity & Access Management**
+- Microsoft Entra ID (Azure AD) Administration
+- Privileged Access Management (PAM)
+- Multi-Factor Authentication (MFA)
+- Role-Based Access Control (RBAC)
+- Identity Governance & Lifecycle Management
+- Single Sign-On (SSO) Implementation
 
-**Incident Response:** Suricata | Rita | Sysmon | Velociraptor | Incident Response Planning | Phishing Analysis | Case Management | URL2PNG | VirusTotal | WannaBrowser | Digital Forensics Workflow Tools | PICERL
+**Security Operations & Monitoring**
+- SIEM Operations (Microsoft Sentinel, Splunk)
+- Threat Hunting & Intelligence Analysis
+- Security Event Correlation & Analysis
+- Incident Detection & Response
+- Security Awareness Training Programs
+- Phishing Simulation & Analysis
 
-**Perimeter Defense:** GoPhish | Email Security Controls | DKIM | SPF | DMARC | BIMI (Brand Indicators for Message Identification) | MISP | DomainTools
-
-**Administration Experience**: Windows OS, Server 2019 | Linux (RHEL, CentOS, Rocky, Alma, PopOS, Ubuntu) | O365 | Azure Portal Admin | Microsoft Entra ID (Azure AD) | Microsoft Purview | Microsoft Defender | Microsoft Teams (VOIP) | 3cx (VOIP) | Juniper | Cisco | Fortigate | Ubiquiti | WSUS | Hyper-V | Cloud Architecture | AWS Cloud | Amazon Web Services | Cloud Data | Powershell | Linux CLI
-
-**Software / Application / Vendor Experience**: Microsoft Sentinel | Tanium | Splunk | Connectwise Automate | BitTitan | Google Workspace | Datto | Veeam | KnowBe4 | CyberChef | TheHive | DeepBlueCLI | URL2PNG
-
-**Programming Experience**: HTML / CSS / JS | Python | Bash | Powershell | SQL | Scripting
-
-**Project Management:** Change Management | Waterfall | Agile | Managing Resources | Project Constraints | Project Tools and Documentation
+**Technical Platforms & Tools**
+- Microsoft Security Stack: Sentinel, Defender, Purview, Entra ID
+- Cloud Platforms: Azure, AWS
+- Endpoint Security: Tanium, SentinelOne
+- Network Security: Firewalls (Fortigate, Cisco), VPN, IDS/IPS
+- Scripting & Automation: PowerShell, Python, Bash
 
 ## Professional Affiliations
 
-- CISA
+- Information Systems Security Association (ISSA) - Local Chapter Member
+- CISA (Cybersecurity and Infrastructure Security Agency)
 - Security Magazine
