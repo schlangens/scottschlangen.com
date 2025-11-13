@@ -40,12 +40,13 @@ Cybersecurity professional with extensive experience in threat analysis, inciden
   <h3>MIE Medical Information Engineering</h3>
 </div>
 
-**Security Systems Engineer**
+**AWS DevOps Tech**
 
-- Established a solid foundation for success by managing infrastructure through code with Terraform and Ansible, streamlining processes, and reducing manual intervention.
-- Demonstrated leadership by implementing and enforcing IAM policies to safeguard critical resources, ensuring compliance and security best practices.
-- Enhanced application security by integrating automated testing within the development pipeline, mitigating vulnerabilities early.
-- Managed sensitive data with HashiCorp Vault, ensuring secure access and compliance with industry standards.
+- Managed cloud infrastructure as code using Terraform and Ansible, automating deployments and reducing manual intervention across AWS environments.
+- Implemented and enforced IAM policies and security best practices to safeguard critical healthcare application resources and ensure HIPAA compliance.
+- Integrated automated security testing and vulnerability scanning within CI/CD pipelines, identifying and mitigating risks early in the development lifecycle.
+- Administered HashiCorp Vault for secrets management, ensuring secure access to sensitive healthcare data and maintaining compliance with industry standards.
+- Deployed and maintained AWS infrastructure supporting electronic health record (EHR) systems, ensuring high availability and disaster recovery capabilities.
 
 <div class="company-header">
   <img src="/img/logos/evideon.png" alt="eVideon by Vibe Health" class="company-logo">
