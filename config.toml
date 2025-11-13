@@ -13,6 +13,9 @@ pygmentscodefencesguesssyntax = true
 enableGitInfo = true
 enableRobotsTXT = true
 
+[markup.goldmark.renderer]
+unsafe = true
+
 # Hugo settings
 [sitemap]
 changefreq = 'weekly'
