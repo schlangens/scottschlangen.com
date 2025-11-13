@@ -1,9 +1,6 @@
 # Scott Schlangen
 
-**Email:** [scott@scottschlangen.com](mailto:scott@scottschlangen.com)
-**Website:** [scottschlangen.com](http://scottschlangen.com)
-**GitHub:** [schlangens](https://github.com/schlangens)
-**LinkedIn:** [scottschlangen](https://linkedin.com/in/scottschlangen)
+[scott@scottschlangen.com](mailto:scott@scottschlangen.com) | [scottschlangen.com](http://scottschlangen.com) | [GitHub](https://github.com/schlangens) | [LinkedIn](https://linkedin.com/in/scottschlangen)
 
 Cybersecurity professional with extensive experience in threat analysis, incident response, and cloud security operations. Proven track record of implementing security controls, leading incident investigations, and protecting critical infrastructure across private sector and municipal environments. Currently expanding expertise in identity and access management and regulatory compliance through the Microsoft Security Compliance certification path, while pursuing a Bachelor's in Cybersecurity with plans to advance into a Master's in Information Assurance.
 
@@ -11,7 +8,7 @@ Cybersecurity professional with extensive experience in threat analysis, inciden
 
 ### City of Carmel, IN
 
-**Cybersecurity Administrator** | September 2025 - Present
+**Cybersecurity Administrator**
 
 - Oversee and implement cybersecurity policies, procedures, and controls to protect municipal IT infrastructure and sensitive citizen data.
 - Monitor security systems, respond to incidents, and conduct threat analysis to safeguard city networks and applications.
