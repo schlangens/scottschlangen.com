@@ -126,22 +126,27 @@ Bachelor of Science in Cybersecurity | Expected September 2027
 - Single Sign-On (SSO) Implementation
 
 **Security Operations & Monitoring**
-- SIEM Operations (Microsoft Sentinel, Splunk)
+- SIEM Operations: Microsoft Sentinel, Splunk, Wazuh (custom rules & decoders)
 - Threat Hunting & Intelligence Analysis
 - Security Event Correlation & Analysis
 - Incident Detection & Response
-- Security Awareness Training Programs
+- Email Security: AbnormalAI (AI-driven threat detection)
+- Security Awareness Training: KnowBe4 platform administration
 - Phishing Simulation & Analysis
 
 **Technical Platforms & Tools**
 - Microsoft Security Stack: Sentinel, Defender, Purview, Entra ID
 - Cloud Platforms: Azure, AWS
-- Endpoint Security: Tanium, SentinelOne
+- Endpoint Security: CrowdStrike, Tanium, SentinelOne
+- SIEM Solutions: Wazuh (deployment, custom rules, decoders), Microsoft Sentinel, Splunk
+- Email Security: AbnormalAI
+- Security Training: KnowBe4
 - Network Security: Firewalls (Fortigate, Cisco), VPN, IDS/IPS
 - Scripting & Automation: PowerShell, Python, Bash
 
 ## Professional Affiliations
 
+- Multi-State Information Sharing and Analysis Center (MS-ISAC) - Active Member
 - Information Systems Security Association (ISSA) - Local Chapter Member
 - CISA (Cybersecurity and Infrastructure Security Agency)
 - Security Magazine
