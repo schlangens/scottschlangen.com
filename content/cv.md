@@ -6,7 +6,10 @@ Cybersecurity professional with extensive experience in threat analysis, inciden
 
 ## Career Experience
 
-### City of Carmel, IN
+<div class="company-header">
+  <img src="/img/logos/carmel.png" alt="City of Carmel" class="company-logo">
+  <h3>City of Carmel, IN</h3>
+</div>
 
 **Cybersecurity Administrator**
 
@@ -19,7 +22,10 @@ Cybersecurity professional with extensive experience in threat analysis, inciden
 - Deploy and maintain Wazuh SIEM infrastructure with custom detection rules and log decoders, correlating security events across municipal networks and systems.
 - Coordinate with MS-ISAC for threat intelligence sharing, incident response support, and leveraging federal resources for municipal cybersecurity operations.
 
-### Quadrant Information Security
+<div class="company-header">
+  <img src="/img/logos/quadrant.png" alt="Quadrant Information Security" class="company-logo">
+  <h3>Quadrant Information Security</h3>
+</div>
 
 **Threat Analyst**
 
@@ -29,7 +35,10 @@ Cybersecurity professional with extensive experience in threat analysis, inciden
 - Communicate and report security incidents to customers within SLA timelines, ensuring clear and prompt updates.
 - Proactively hunt for threats, analyze emerging trends, and enhance the organization's detection capabilities.
 
-### MIE Medical Information Engineering
+<div class="company-header">
+  <img src="/img/logos/mie.png" alt="MIE Medical Information Engineering" class="company-logo">
+  <h3>MIE Medical Information Engineering</h3>
+</div>
 
 **Security Systems Engineer**
 
@@ -38,7 +47,10 @@ Cybersecurity professional with extensive experience in threat analysis, inciden
 - Enhanced application security by integrating automated testing within the development pipeline, mitigating vulnerabilities early.
 - Managed sensitive data with HashiCorp Vault, ensuring secure access and compliance with industry standards.
 
-### eVideon by Vibe Health
+<div class="company-header">
+  <img src="/img/logos/evideon.png" alt="eVideon by Vibe Health" class="company-logo">
+  <h3>eVideon by Vibe Health</h3>
+</div>
 
 **Cloud Systems Engineer**
 
@@ -48,7 +60,10 @@ Cybersecurity professional with extensive experience in threat analysis, inciden
 - Acted as an integral member of the Incident Response Team, leading containment and remediation efforts to mitigate security incidents.
 - Delivered Security Awareness Training and Phishing Campaigns, promoting cybersecurity best practices across the organization.
 
-### 4EOS - Netgain Technologies 
+<div class="company-header">
+  <img src="/img/logos/netgain.png" alt="4EOS - Netgain Technologies" class="company-logo">
+  <h3>4EOS - Netgain Technologies</h3>
+</div>
 
 **System Engineer**
 
@@ -58,7 +73,10 @@ Cybersecurity professional with extensive experience in threat analysis, inciden
 - Promoted end-user security education through Security Awareness Training and Phishing Campaigns, reducing vulnerability to social engineering threats.
 - Collaborated with clients to secure and optimize business IT operations, applying strong relationship-building and technical expertise.
 
-### Everstream Solutions 
+<div class="company-header">
+  <img src="/img/logos/everstream.png" alt="Everstream Solutions" class="company-logo">
+  <h3>Everstream Solutions</h3>
+</div>
 
 **Network Operations Center Engineer**
 
