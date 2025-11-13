@@ -10,11 +10,14 @@ Cybersecurity professional with extensive experience in threat analysis, inciden
 
 **Cybersecurity Administrator**
 
-- Oversee and implement cybersecurity policies, procedures, and controls to protect municipal IT infrastructure and sensitive citizen data.
-- Monitor security systems, respond to incidents, and conduct threat analysis to safeguard city networks and applications.
-- Collaborate with department stakeholders to ensure compliance with industry standards and regulatory requirements.
-- Manage security awareness training programs and promote cybersecurity best practices across city departments.
-- Lead vulnerability assessments and security audits to identify and remediate risks within the city's technology environment.
+- Lead vulnerability management program using Nessus Professional, conducting enterprise-wide scans and coordinating remediation efforts across IT infrastructure.
+- Manage enterprise risk register using Cynomi platform, documenting security controls, entering evidence, and tracking compliance requirements aligned with NIST and municipal standards.
+- Architect and deploy Ansible automation infrastructure, establishing control node for automated Linux patch management and configuration management across municipal systems.
+- Administer Microsoft Entra ID (Azure AD) as primary identity provider, managing user provisioning, access controls, and conducting security investigations for flagged at-risk user accounts.
+- Design and execute monthly phishing simulation campaigns using KnowBe4, selecting realistic attack scenarios, analyzing results, and delivering targeted security awareness training based on user behavior patterns.
+- Serve on Change Management Review Board, evaluating security implications of proposed IT changes and ensuring compliance with security policies and risk tolerance.
+- Deploy and maintain Wazuh SIEM infrastructure with custom detection rules and log decoders, correlating security events across municipal networks and systems.
+- Coordinate with MS-ISAC for threat intelligence sharing, incident response support, and leveraging federal resources for municipal cybersecurity operations.
 
 ### Quadrant Information Security
 
@@ -137,12 +140,14 @@ Bachelor of Science in Cybersecurity | Expected September 2027
 **Technical Platforms & Tools**
 - Microsoft Security Stack: Sentinel, Defender, Purview, Entra ID
 - Cloud Platforms: Azure, AWS
+- Vulnerability Management: Nessus Professional
+- Risk Management: Cynomi (GRC platform)
 - Endpoint Security: CrowdStrike, Tanium, SentinelOne
 - SIEM Solutions: Wazuh (deployment, custom rules, decoders), Microsoft Sentinel, Splunk
 - Email Security: AbnormalAI
-- Security Training: KnowBe4
+- Security Training: KnowBe4 (campaign management)
 - Network Security: Firewalls (Fortigate, Cisco), VPN, IDS/IPS
-- Scripting & Automation: PowerShell, Python, Bash
+- Configuration Management & Automation: Ansible, PowerShell, Python, Bash
 
 ## Professional Affiliations
 
