@@ -1,6 +1,6 @@
 # Scott Schlangen
 
-[scott@scottschlangen.com](mailto:scott@scottschlangen.com) | [scottschlangen.com](http://scottschlangen.com) | [GitHub](https://github.com/schlangens) | [LinkedIn](https://linkedin.com/in/scottschlangen)
+<i class="fa fa-envelope"></i> [scott@scottschlangen.com](mailto:scott@scottschlangen.com) | <i class="fa fa-github"></i> [GitHub](https://github.com/schlangens) | <i class="fa fa-linkedin"></i> [LinkedIn](https://linkedin.com/in/scottschlangen)
 
 Cybersecurity professional with extensive experience in threat analysis, incident response, and cloud security operations. Proven track record of implementing security controls, leading incident investigations, and protecting critical infrastructure across private sector and municipal environments. Currently expanding expertise in identity and access management and regulatory compliance through the Microsoft Security Compliance certification path, while pursuing a Bachelor's in Cybersecurity with plans to advance into a Master's in Information Assurance.
 
