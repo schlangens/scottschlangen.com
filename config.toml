@@ -10,7 +10,6 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "kksudo"
 enableGitInfo = true
 enableRobotsTXT = true
 
@@ -22,9 +21,9 @@ priority = 0.5
 
 [params]
 author = "Scott Schlangen"
-info = ["Threat Analyst"]
-description = "Scott Schlangens personal page"
-keywords = "blog,businesscard,personal,devops"
+info = ["Cybersecurity Administrator", "City of Carmel, IN"]
+description = "Scott Schlangen's personal page - Cybersecurity professional specializing in threat analysis, incident response, identity and access management, and compliance"
+keywords = "cybersecurity,threat analysis,incident response,identity management,compliance,cloud security,infosec,soc,security operations,microsoft security"
 gravatar = "sschlangen@gmail.com"
 
 faviconSVG = "/img/favicon.svg"

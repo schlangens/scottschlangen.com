@@ -1,16 +1,22 @@
 +++
 title = "About"
-description = "Few words about my self"
+description = "Cybersecurity professional focused on threat analysis and incident response"
 aliases = ["about", "about-us", "contact"]
 +++
 
-Throughout my career, I've consistently sought out challenges that push me to grow, both professionally and personally. Transitioning from law enforcement to IT in 2012 was a pivotal moment that ignited my passion for cybersecurity. I take pride in my ability to quickly adapt, learn new technologies, and overcome obstacles. My journey from help desk to subject matter expert in NOC and SOC operations, and eventually to cybersecurity and cloud security, is a testament to my commitment to continuous improvement.
+I'm a cybersecurity professional currently serving as a Cybersecurity Administrator for the City of Carmel, Indiana, where I oversee security operations and protect critical municipal infrastructure. My career has taken me from NOC and SOC operations through cloud security and threat analysis, consistently focusing on practical, effective security implementations.
 
-Currently, I’m working toward completing my Bachelor’s in Cloud Computing and Computer Science at Western Governors University by September 2027. Immediately after, I plan to pursue a Master’s in Information Assurance, driven by my goal to remain at the forefront of the ever-evolving cybersecurity landscape. My certifications and hands-on experience in cloud and security operations reflect not just technical expertise, but also a deep desire to contribute meaningfully to my field.
+Throughout my career, I've worked across diverse environments—from managed security service providers to healthcare technology, enterprise consulting, and now municipal government. This breadth of experience has given me a comprehensive understanding of security challenges across different sectors and regulatory landscapes.
 
-Outside of work, I'm an avid learner and enjoy keeping up with emerging threats, best practices, and innovations in the tech space. This passion for growth and learning drives my work every day, and I’m always looking for new opportunities to enhance my skills and make a greater impact.
+I hold multiple industry certifications including CompTIA CySA+, Security+, Cloud+, AWS Solutions Architect Associate, Azure Fundamentals, and specialized training in threat intelligence and incident response. Currently pursuing a Bachelor's in Cybersecurity at Western Governors University (expected September 2027), I plan to continue with a Master's in Information Assurance to remain at the forefront of the evolving cybersecurity landscape.
 
-**Contact: [scott@scottschlangen.com](mailto:scott@scottschlangen.com)** 📧
+In addition to my academic pursuits, I'm actively advancing through the Microsoft Security Compliance certification path. Currently preparing for the SC-900 (Microsoft Security, Compliance, and Identity Fundamentals), my goal is to achieve expert-level credentials in both Identity and Compliance domains. This focus aligns with the growing importance of identity-centric security and regulatory compliance in modern cybersecurity operations, particularly in municipal government environments where protecting citizen data and ensuring compliance are paramount.
+
+My approach combines technical expertise with practical problem-solving. Whether analyzing security events, implementing defense controls, managing identity and access governance, or leading incident response efforts, I focus on solutions that effectively reduce risk while supporting business operations.
+
+Outside of work, I maintain active engagement with the security community, continuously researching emerging threats, pursuing advanced certifications, and developing tools to support security operations.
+
+**Contact:** [scott@scottschlangen.com](mailto:scott@scottschlangen.com)
 
 
 

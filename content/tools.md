@@ -1,22 +1,30 @@
 +++
 title = "Tools"
-description = "Nerdy Tools and Projects"
+description = "Security tools and open-source projects"
 aliases = ["tools", "projects"]
 +++
 
-# Nerdy Tools and Projects 🛠️
+# Security Tools & Projects
 
-Welcome to my nerdy corner of the internet! Here are a couple of cool projects that I've worked on:
+A collection of open-source tools I've developed to support security operations and incident response workflows.
 
 ## [IR-Logger](https://github.com/schlangens/ir-logger)
 
-This tool allows you to input entries from active IR into a markdown document. I wrote this to keep my thoughts organized.
+A command-line tool designed for incident responders to maintain organized documentation during active investigations. IR-Logger enables real-time logging of observations, actions, and findings directly into markdown format, ensuring comprehensive incident documentation and preserving investigative workflows.
+
+**Technologies:** Python | Markdown | CLI
+
+**Use Case:** Incident response documentation, investigation tracking, forensic note-taking
 
 
-## [EventID-Scrape](https://github.com/schlangens/EventID-Scraper)
+## [EventID-Scraper](https://github.com/schlangens/EventID-Scraper)
 
-This tool scrapes event information from Microsoft Learn and Ultimate Windows Security websites, providing a comprehensive overview of security-related Windows events.
+An automated web scraping tool that aggregates Windows Event ID information from authoritative sources including Microsoft Learn and Ultimate Windows Security. This tool provides security analysts with rapid access to event context and security implications, accelerating log analysis and threat detection.
 
+**Technologies:** Python | Web Scraping | Security Research
 
+**Use Case:** Security event analysis, log correlation, threat hunting reference
 
-**Contact: [scott@scottschlangen.com](mailto:scott@scottschlangen.com)** 📧
+---
+
+**Contact:** [scott@scottschlangen.com](mailto:scott@scottschlangen.com)
