@@ -1,3 +1,9 @@
++++
+title = "Resume/CV"
+description = "Scott Schlangen - Cybersecurity Professional Resume"
+aliases = ["cv", "resume"]
++++
+
 # Scott Schlangen
 
 <i class="fa fa-envelope"></i> [scott@scottschlangen.com](mailto:scott@scottschlangen.com) | <i class="fa fa-github"></i> [GitHub](https://github.com/schlangens) | <i class="fa fa-linkedin"></i> [LinkedIn](https://linkedin.com/in/scottschlangen)
