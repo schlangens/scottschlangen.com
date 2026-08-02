@@ -1,43 +1,47 @@
 // Scott Schlangen — portfolio presence
-// Direction: cool slate + teal, expressive type, calm motion
+// Direction: dark theme + thin blue line, expressive type, calm motion
 
 :root {
-  --ink: #12201e;
-  --ink-soft: #2a3b38;
-  --fog: #eef3f1;
-  --paper: #f7faf8;
-  --line: rgba(18, 32, 30, 0.12);
-  --accent: #0d8a7f;
-  --accent-deep: #08665e;
-  --accent-soft: rgba(13, 138, 127, 0.12);
-  --highlight: #c8f0ea;
+  // Light fallback still nods to the blue line
+  --ink: #0c1018;
+  --ink-soft: #2a3344;
+  --fog: #e8edf5;
+  --paper: #f4f6fa;
+  --line: rgba(12, 16, 24, 0.12);
+  --accent: #1457d9;
+  --accent-deep: #0d3fad;
+  --accent-soft: rgba(20, 87, 217, 0.12);
+  --highlight: rgba(20, 87, 217, 0.14);
+  --blue-line: #1a56e8;
   --font-display: "Syne", "Segoe UI", sans-serif;
   --font-body: "Manrope", "Segoe UI", sans-serif;
 }
 
 body.colorscheme-dark {
-  --ink: #e8f1ef;
-  --ink-soft: #b7c7c3;
-  --fog: #121a19;
-  --paper: #0e1514;
-  --line: rgba(232, 241, 239, 0.14);
-  --accent: #3dbdb0;
-  --accent-deep: #7fd9cf;
-  --accent-soft: rgba(61, 189, 176, 0.16);
-  --highlight: rgba(61, 189, 176, 0.18);
+  --ink: #eef2f8;
+  --ink-soft: #a8b3c7;
+  --fog: #10141c;
+  --paper: #0a0d14;
+  --line: rgba(238, 242, 248, 0.1);
+  --accent: #2f6fff;
+  --accent-deep: #7aa4ff;
+  --accent-soft: rgba(47, 111, 255, 0.16);
+  --highlight: rgba(47, 111, 255, 0.18);
+  --blue-line: #2f6fff;
 }
 
 @media (prefers-color-scheme: dark) {
   body.colorscheme-auto {
-    --ink: #e8f1ef;
-    --ink-soft: #b7c7c3;
-    --fog: #121a19;
-    --paper: #0e1514;
-    --line: rgba(232, 241, 239, 0.14);
-    --accent: #3dbdb0;
-    --accent-deep: #7fd9cf;
-    --accent-soft: rgba(61, 189, 176, 0.16);
-    --highlight: rgba(61, 189, 176, 0.18);
+    --ink: #eef2f8;
+    --ink-soft: #a8b3c7;
+    --fog: #10141c;
+    --paper: #0a0d14;
+    --line: rgba(238, 242, 248, 0.1);
+    --accent: #2f6fff;
+    --accent-deep: #7aa4ff;
+    --accent-soft: rgba(47, 111, 255, 0.16);
+    --highlight: rgba(47, 111, 255, 0.18);
+    --blue-line: #2f6fff;
   }
 }
 
@@ -46,6 +50,19 @@ body {
   letter-spacing: -0.01em;
   background-color: var(--paper);
   color: var(--ink-soft);
+}
+
+// Persistent thin blue line at the top of the site
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 1000;
+  background: var(--blue-line);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--blue-line) 45%, transparent);
 }
 
 h1,
@@ -69,7 +86,7 @@ a {
 .navigation {
   background: color-mix(in srgb, var(--paper) 88%, transparent);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid var(--line);
 
   .navigation-title {
     font-weight: 700;
@@ -90,9 +107,9 @@ code {
 
 hr {
   border: none;
-  height: 0.1rem;
-  background: currentColor;
-  opacity: 0.15;
+  height: 2px;
+  background: linear-gradient(90deg, var(--blue-line), transparent 70%);
+  opacity: 1;
 }
 
 // Homepage composition — override centered theme shell
@@ -123,17 +140,29 @@ hr {
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(ellipse 70% 55% at 80% 10%, var(--highlight), transparent 60%),
-    radial-gradient(ellipse 50% 45% at 10% 85%, var(--accent-soft), transparent 55%),
-    linear-gradient(180deg, var(--fog), var(--paper) 70%);
+    radial-gradient(ellipse 65% 50% at 85% 8%, var(--highlight), transparent 58%),
+    radial-gradient(ellipse 45% 40% at 8% 90%, var(--accent-soft), transparent 55%),
+    linear-gradient(180deg, #070a10 0%, var(--paper) 72%);
   animation: atmosphereDrift 14s ease-in-out infinite alternate;
+}
+
+.portfolio-hero__atmosphere::before {
+  // Vertical thin blue line motif
+  content: "";
+  position: absolute;
+  top: 12%;
+  bottom: 18%;
+  left: unquote("max(2rem, calc(50% - 38rem))");
+  width: 2px;
+  background: linear-gradient(180deg, transparent, var(--blue-line) 20%, var(--blue-line) 80%, transparent);
+  opacity: 0.85;
 }
 
 .portfolio-hero__atmosphere::after {
   content: "";
   position: absolute;
   inset: 0;
-  opacity: 0.35;
+  opacity: 0.28;
   background-image:
     linear-gradient(var(--line) 1px, transparent 1px),
     linear-gradient(90deg, var(--line) 1px, transparent 1px);
@@ -145,6 +174,7 @@ hr {
   width: unquote("min(72rem, 100%)");
   text-align: left;
   animation: heroIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  padding-left: 1.6rem;
 }
 
 .portfolio-hero .avatar {
@@ -154,8 +184,8 @@ hr {
     width: 9.6rem;
     height: 9.6rem;
     border-radius: 28%;
-    border: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
-    box-shadow: 0 1.2rem 3rem rgba(8, 40, 36, 0.14);
+    border: 2px solid color-mix(in srgb, var(--accent) 55%, transparent);
+    box-shadow: 0 1.2rem 3rem rgba(0, 0, 0, 0.45);
     transition: transform 0.4s ease;
   }
 }
@@ -178,6 +208,17 @@ hr {
   font-size: unquote("clamp(4.2rem, 9vw, 7.2rem)");
   line-height: 0.95;
   font-weight: 800;
+  position: relative;
+}
+
+.portfolio-brand::after {
+  content: "";
+  display: block;
+  width: 5.6rem;
+  height: 3px;
+  margin-top: 1.2rem;
+  background: var(--blue-line);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--blue-line) 50%, transparent);
 }
 
 .portfolio-lede {
@@ -200,7 +241,7 @@ hr {
   align-items: center;
   justify-content: center;
   padding: 1rem 1.6rem;
-  border-radius: 0.6rem;
+  border-radius: 0.5rem;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1;
@@ -221,7 +262,7 @@ hr {
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background: var(--accent-deep);
+  background: color-mix(in srgb, var(--accent) 80%, #fff);
   color: #fff !important;
 }
 
@@ -261,6 +302,17 @@ hr {
 .portfolio-section {
   padding: 7rem 2rem;
   border-top: 1px solid var(--line);
+  position: relative;
+}
+
+.portfolio-section::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: unquote("max(2rem, calc(50% - 46rem))");
+  width: 4.8rem;
+  height: 2px;
+  background: var(--blue-line);
 }
 
 .portfolio-wrap {
@@ -320,15 +372,15 @@ hr {
     content: "";
     display: block;
     width: 3.2rem;
-    height: 0.3rem;
+    height: 2px;
     margin-bottom: 1.4rem;
-    background: var(--accent);
+    background: var(--blue-line);
     transform-origin: left center;
     transition: transform 0.35s ease;
   }
 
   &:hover::before {
-    transform: scaleX(1.35);
+    transform: scaleX(1.6);
   }
 }
 
@@ -365,7 +417,7 @@ hr {
 .voice-quote {
   margin: 0;
   padding: 0 0 0 1.6rem;
-  border-left: 3px solid var(--accent);
+  border-left: 2px solid var(--blue-line);
   background: none;
   box-shadow: none;
 
@@ -428,14 +480,14 @@ hr {
 body.colorscheme-dark .company-header .company-logo,
 body.colorscheme-auto .company-header .company-logo {
   @media (prefers-color-scheme: dark) {
-    background: #2a2a2a;
-    box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.3);
+    background: #1a1f2a;
+    box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.4);
   }
 }
 
 body.colorscheme-dark .company-header .company-logo {
-  background: #2a2a2a;
-  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.3);
+  background: #1a1f2a;
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
 .project-block {
@@ -522,6 +574,10 @@ body.colorscheme-dark .company-header .company-logo {
   .portfolio-hero {
     min-height: auto;
     padding-top: 3rem;
+  }
+
+  .portfolio-hero__atmosphere::before {
+    left: 1.2rem;
   }
 }
 

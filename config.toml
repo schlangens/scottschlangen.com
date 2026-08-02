@@ -34,7 +34,7 @@ favicon_32 = "/img/favicon.png"
 
 since = 2012
 enableTwemoji = false
-colorScheme = "auto"
+colorScheme = "dark"
 hidecolorschemetoggle = false
 powered_by = false
 maxSeeAlsoItems = 5
