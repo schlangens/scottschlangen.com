@@ -179,7 +179,7 @@ hr {
 
 .portfolio-title-row {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   gap: 2rem;
   margin: 0 0 2.2rem;
 }
@@ -187,16 +187,12 @@ hr {
 .portfolio-hero .avatar {
   margin: 0;
   flex: 0 0 auto;
-  align-self: stretch;
-  aspect-ratio: 1 / 1;
-  width: auto;
-  height: auto;
 
   img {
-    // Square photo sized to match the name block height
+    // Match approximate height of kicker + name + blue underline
     display: block;
-    width: 100% !important;
-    height: 100% !important;
+    width: 10rem !important;
+    height: 10rem !important;
     max-width: none;
     border-radius: 28%;
     object-fit: cover;
@@ -211,6 +207,7 @@ hr {
 }
 
 .portfolio-title-copy {
+  flex: 1 1 auto;
   min-width: 0;
   display: flex;
   flex-direction: column;
