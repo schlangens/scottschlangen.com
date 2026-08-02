@@ -125,8 +125,8 @@ IT Contractor — Napa Balkamp (2018); Kinney Group (2018, Splunk environment). 
 
 ## Projects & Public Work
 
+- **[Scott’s Lab](https://scottslab.io/)** — Writing and open tools: [Hacking with AI](https://scottslab.io/posts/hacking-with-ai-security-engineers-guide), [Wazuh home-lab SIEM](https://scottslab.io/posts/home-lab-siem-wazuh-custom-detection), [Scrambler](https://scramble.scottslab.io), [WX Dashboard](https://wx.scottslab.io), [CyberChef](https://chef.scottslab.io)
 - **[GitHub](https://github.com/schlangens)** — Public security tooling and home lab automation, including [EventID-Scraper](https://github.com/schlangens/EventID-Scraper)
-- **[scottslab.io](https://scottslab.io)** — Writing on security operations, SIEM/detection (Wazuh), digital forensics, home lab infrastructure, and AI in security
 - **AI agent tooling** — Hands-on orchestration of AI coding agents and MCP-integrated automation platforms, including scheduled jobs, sandboxed execution, and credential-scoped automation
 
 ## Certifications

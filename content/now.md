@@ -18,10 +18,11 @@ A short snapshot of what I'm spending energy on. Inspired by [nownownow.com](htt
 - Next: Microsoft AZ-500 and SC-200, then Databricks Generative AI Engineer and Google Cloud AI/ML through 2027
 - Hands-on with AI coding agents and MCP-integrated automation platforms
 
-### Building & writing
+### Building & writing on [Scott’s Lab](https://scottslab.io/)
 
+- Recent posts: [Hacking with AI](https://scottslab.io/posts/hacking-with-ai-security-engineers-guide), [Wazuh home-lab SIEM](https://scottslab.io/posts/home-lab-siem-wazuh-custom-detection), [CSI Linux forensics](https://scottslab.io/posts/csi-linux-digital-forensics-workstation)
+- Open tools: [Scrambler](https://scramble.scottslab.io), [WX Dashboard](https://wx.scottslab.io), [CyberChef](https://chef.scottslab.io)
 - Public security tooling on [GitHub](https://github.com/schlangens) (including EventID-Scraper)
-- Technical writing at [scottslab.io](https://scottslab.io) — security ops, SIEM, forensics, home lab, AI in security
 
 ### Life coordinates
 

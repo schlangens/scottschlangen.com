@@ -59,10 +59,10 @@ weight = 2
 url = "https://www.linkedin.com/in/scottschlangen/"
 target = "_blank"
 [[params.social]]
-name = "Blog"
-icon = "fa fa-pencil fa-2x"
+name = "Scott's Lab"
+icon = "fa fa-flask fa-2x"
 weight = 3
-url = "https://scottslab.io"
+url = "https://scottslab.io/"
 target = "_blank"
 [[params.social]]
 name = "scott@scottschlangen.com"
@@ -90,6 +90,10 @@ name = "Projects"
 weight = 4
 url = "tools/"
 [[languages.en.menu.main]]
-name = "Resume"
+name = "Lab"
 weight = 5
+url = "https://scottslab.io/"
+[[languages.en.menu.main]]
+name = "Resume"
+weight = 6
 url = "cv/"
