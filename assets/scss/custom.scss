@@ -664,6 +664,11 @@ body.colorscheme-dark .company-header .company-logo {
   .portfolio-title-row {
     gap: 1.4rem;
   }
+
+  .portfolio-hero .avatar img {
+    width: 7.6rem !important;
+    height: 7.6rem !important;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
