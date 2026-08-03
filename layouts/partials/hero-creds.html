@@ -1,0 +1,48 @@
+{{/*
+  Neat monochrome credential marks for the homepage hero.
+  Linked to the resume certifications section.
+*/}}
+<aside class="hero-creds" aria-label="Credentials">
+  <p class="portfolio-label">Credentials</p>
+  <ul class="hero-creds__grid">
+    {{ range slice
+      (dict "code" "CySA+" "name" "CySA+" "org" "CompTIA")
+      (dict "code" "Sec+" "name" "Security+" "org" "CompTIA")
+      (dict "code" "Clo+" "name" "Cloud+" "org" "CompTIA")
+      (dict "code" "Net+" "name" "Network+" "org" "CompTIA")
+      (dict "code" "AWS" "name" "Cloud Practitioner" "org" "Amazon Web Services")
+      (dict "code" "AZ" "name" "AZ-900" "org" "Microsoft Azure")
+      (dict "code" "SC" "name" "SC-900" "org" "Microsoft Security")
+      (dict "code" "BTL1" "name" "BTL1" "org" "Blue Team Level 1")
+      (dict "code" "CISSP" "name" "CISSP" "org" "ISC2 · in progress" "progress" true)
+    }}
+    <li>
+      <a class="hero-cred{{ if .progress }} hero-cred--progress{{ end }}" href="{{ "cv/#certifications" | relURL }}">
+        <span class="hero-cred__mark" aria-hidden="true">
+          <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {{ if .progress }}
+            <rect x="3.5" y="3.5" width="49" height="49" rx="12" stroke="currentColor" stroke-width="1.75" stroke-dasharray="3.8 2.8"/>
+            {{ else }}
+            <rect x="3.5" y="3.5" width="49" height="49" rx="12" stroke="currentColor" stroke-width="1.75"/>
+            {{ end }}
+            <text
+              x="28"
+              y="33"
+              text-anchor="middle"
+              fill="currentColor"
+              font-size="{{ if gt (len .code) 4 }}11{{ else if gt (len .code) 3 }}12.5{{ else }}14{{ end }}"
+              font-weight="800"
+              font-family="Syne, Segoe UI, sans-serif"
+              letter-spacing="-0.04em">{{ .code }}</text>
+          </svg>
+        </span>
+        <span class="hero-cred__text">
+          <span class="hero-cred__name">{{ .name }}</span>
+          <span class="hero-cred__org">{{ .org }}</span>
+        </span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  <a class="hero-creds__more text-link" href="{{ "cv/#certifications" | relURL }}">Full credentials →</a>
+</aside>

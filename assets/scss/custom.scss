@@ -267,12 +267,12 @@ hr {
 }
 
 .portfolio-hero__atmosphere::before {
-  // Vertical thin blue line motif
+  // Vertical thin blue line motif — aligns with widened hero split
   content: "";
   position: absolute;
   top: 12%;
   bottom: 18%;
-    left: #{"max(2rem, calc(50% - 38rem))"};
+  left: #{"max(2rem, calc(50% - 55rem))"};
   width: 2px;
   background: linear-gradient(180deg, transparent, var(--blue-line) 20%, var(--blue-line) 80%, transparent);
   opacity: 0.85;
@@ -297,11 +297,116 @@ hr {
   padding-left: 1.6rem;
 }
 
+.portfolio-hero__inner--split {
+  width: #{"min(110rem, 100%)"};
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(24rem, 0.85fr);
+  gap: 4.8rem;
+  align-items: center;
+}
+
+.portfolio-hero__copy {
+  min-width: 0;
+}
+
 .portfolio-title-copy {
   margin: 0 0 2.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.hero-creds {
+  min-width: 0;
+  padding-left: 2.4rem;
+  border-left: 1px solid var(--line);
+  animation: heroIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.12s both;
+}
+
+.hero-creds .portfolio-label {
+  margin-bottom: 1.4rem;
+}
+
+.hero-creds__grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem 0.9rem;
+}
+
+.hero-cred {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+  padding: 0.2rem 0.1rem;
+  text-decoration: none !important;
+  color: var(--ink) !important;
+  transition: transform 0.22s ease, color 0.22s ease;
+}
+
+.hero-cred:hover,
+.hero-cred:focus-visible {
+  transform: translateY(-2px);
+  color: var(--accent-deep) !important;
+  outline: none;
+}
+
+.hero-cred__mark {
+  display: block;
+  width: 5.2rem;
+  height: 5.2rem;
+  color: var(--blue-line);
+  transition: color 0.22s ease, filter 0.22s ease;
+}
+
+.hero-cred:hover .hero-cred__mark,
+.hero-cred:focus-visible .hero-cred__mark {
+  filter: drop-shadow(0 0 10px color-mix(in srgb, var(--blue-line) 40%, transparent));
+}
+
+.hero-cred__mark svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-cred__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.hero-cred__name {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.hero-cred__org {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+  opacity: 0.8;
+  line-height: 1.25;
+}
+
+.hero-cred--progress .hero-cred__org {
+  color: var(--accent-deep);
+  opacity: 1;
+}
+
+.hero-creds__more {
+  display: inline-flex;
+  margin-top: 1.8rem;
+  font-size: 1.4rem !important;
 }
 
 .portfolio-kicker {
@@ -1239,6 +1344,25 @@ body.colorscheme-dark .company-header .company-logo {
   }
 }
 
+@media (max-width: 1100px) {
+  .portfolio-hero__inner--split {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+
+  .hero-creds {
+    padding-left: 0;
+    border-left: 0;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line);
+    max-width: 42rem;
+  }
+
+  .hero-creds__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 900px) {
   .impact-grid,
   .quote-grid,
@@ -1257,6 +1381,18 @@ body.colorscheme-dark .company-header .company-logo {
 
   .portfolio-hero__atmosphere::before {
     left: 1.2rem;
+  }
+
+  .hero-creds__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2rem 1rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-cred__mark {
+    width: 4.6rem;
+    height: 4.6rem;
   }
 }
 

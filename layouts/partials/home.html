@@ -1,20 +1,23 @@
 <section class="portfolio-home">
   <div class="portfolio-hero">
     <div class="portfolio-hero__atmosphere" aria-hidden="true"></div>
-    <div class="portfolio-hero__inner">
-      <div class="portfolio-title-copy">
-        <p class="portfolio-kicker">Security engineering · Detection · Response</p>
-        <h1 class="portfolio-brand">{{ .Site.Params.author }}</h1>
+    <div class="portfolio-hero__inner portfolio-hero__inner--split">
+      <div class="portfolio-hero__copy">
+        <div class="portfolio-title-copy">
+          <p class="portfolio-kicker">Security engineering · Detection · Response</p>
+          <h1 class="portfolio-brand">{{ .Site.Params.author }}</h1>
+        </div>
+        <p class="portfolio-lede">
+          I help teams cut through alert noise, close real risk, and build the tooling a security program can actually run on.
+        </p>
+        <div class="portfolio-cta">
+          <a class="btn btn-primary" href="{{ "cv/" | relURL }}">View resume</a>
+          <a class="btn btn-ghost" href="{{ "tools/" | relURL }}">See projects</a>
+          <a class="btn btn-ghost" href="{{ "about/" | relURL }}">About</a>
+        </div>
+        {{ partialCached "home/social.html" . }}
       </div>
-      <p class="portfolio-lede">
-        I help teams cut through alert noise, close real risk, and build the tooling a security program can actually run on.
-      </p>
-      <div class="portfolio-cta">
-        <a class="btn btn-primary" href="{{ "cv/" | relURL }}">View resume</a>
-        <a class="btn btn-ghost" href="{{ "tools/" | relURL }}">See projects</a>
-        <a class="btn btn-ghost" href="{{ "about/" | relURL }}">About</a>
-      </div>
-      {{ partialCached "home/social.html" . }}
+      {{ partial "hero-creds.html" . }}
     </div>
   </div>
 
