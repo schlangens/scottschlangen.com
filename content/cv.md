@@ -2,6 +2,7 @@
 title: "Resume"
 description: "Scott Schlangen — Security Engineer resume"
 aliases: ["cv", "resume"]
+eyebrow: "Career"
 subtitle: "Detection Engineering · Vulnerability Management · Incident Response · Security Automation"
 sidebar:
   label: "Connect & work"

@@ -2,6 +2,7 @@
 title: "Now"
 description: "What Scott Schlangen is focused on right now"
 aliases: ["now"]
+eyebrow: "Focus"
 subtitle: "What I'm spending energy on this season."
 sidebar:
   label: "Building & writing"

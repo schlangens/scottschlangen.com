@@ -2,6 +2,7 @@
 title: "Projects"
 description: "Security tools, writing, and experiments by Scott Schlangen"
 aliases: ["tools", "projects"]
+eyebrow: "Build"
 subtitle: "Tools operators can use, writing that clarifies the craft, and the systems I test ideas in."
 sidebar:
   label: "Jump to"

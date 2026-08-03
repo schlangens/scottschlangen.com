@@ -2,6 +2,7 @@
 title: "About"
 description: "Security engineer who builds the tooling and judgment a program actually runs on"
 aliases: ["about", "about-us", "contact"]
+eyebrow: "Profile"
 subtitle: "Signal over noise. Ownership over tickets."
 sidebar:
   label: "Explore"
