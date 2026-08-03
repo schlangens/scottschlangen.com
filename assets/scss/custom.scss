@@ -422,7 +422,7 @@ hr {
   isolation: isolate;
   width: 100%;
   padding: 3.2rem 2rem 6rem;
-  overflow: hidden;
+  // Do not set overflow here — it breaks position:sticky on the TOC rail
 }
 
 .page-shell__atmosphere {
@@ -430,6 +430,7 @@ hr {
   inset: 0;
   z-index: -1;
   pointer-events: none;
+  overflow: hidden;
   background:
     radial-gradient(ellipse 55% 40% at 90% 0%, var(--highlight), transparent 60%),
     radial-gradient(ellipse 40% 35% at 0% 100%, var(--accent-soft), transparent 55%),
