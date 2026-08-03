@@ -4,7 +4,7 @@ description = "Security tools, writing, and experiments by Scott Schlangen"
 aliases = ["tools", "projects"]
 +++
 
-Work that lives outside the ticket queue — tools operators can use, writing that clarifies the craft, and the home-lab systems I test ideas in. A lot of this ships through [Scott’s Lab](https://scottslab.io/).
+Work that lives outside the ticket queue — tools operators can use, writing that clarifies the craft, and the home-lab systems I test ideas in. A lot of this ships through [Scott's Lab](https://scottslab.io/).
 
 ## From [scottslab.io](https://scottslab.io/)
 
@@ -16,12 +16,12 @@ Work that lives outside the ticket queue — tools operators can use, writing th
 
 ### Recent writing
 
-- [Hacking with AI: What Security Engineers Get Wrong](https://scottslab.io/posts/hacking-with-ai-security-engineers-guide) — practitioner guide grounded in OWASP vendor criteria
+- [Hacking with AI: What Security Engineers Get Wrong](https://scottslab.io/posts/hacking-with-ai-security-engineers-guide) — Practitioner guide grounded in OWASP vendor criteria
 - [Building a Home Lab SIEM with Wazuh](https://scottslab.io/posts/home-lab-siem-wazuh-custom-detection) — 16 hosts, 60+ custom detection rules
-- [CSI Linux as a forensics workstation](https://scottslab.io/posts/csi-linux-digital-forensics-workstation)
-- [Forensic evidence pipeline](https://scottslab.io/posts/forensic-evidence-pipeline-workstation-to-locker) — workstation to evidence locker
-- [Ansible & Ludus home lab IaC](https://scottslab.io/posts/ansible-ludus-homelab-infrastructure-as-code)
-- [Action1 as an Ansible alternative for Windows](https://scottslab.io/posts/action1-windows-management-ansible-alternative)
+- [CSI Linux as a forensics workstation](https://scottslab.io/posts/csi-linux-digital-forensics-workstation) — Why CSI Linux is my digital forensics daily driver
+- [Forensic evidence pipeline](https://scottslab.io/posts/forensic-evidence-pipeline-workstation-to-locker) — Workstation to evidence locker
+- [Ansible & Ludus home lab IaC](https://scottslab.io/posts/ansible-ludus-homelab-infrastructure-as-code) — Automating a home lab with infrastructure as code
+- [Action1 as an Ansible alternative for Windows](https://scottslab.io/posts/action1-windows-management-ansible-alternative) — Windows management without the WinRM pain
 
 [All Lab posts →](https://scottslab.io/posts)
 
@@ -68,6 +68,6 @@ Hands-on work running AI coding agents and MCP-integrated automation platforms �
 
 ---
 
-More on [GitHub](https://github.com/schlangens) and [Scott’s Lab](https://scottslab.io/). Career narrative: [About](/about/) · full [Resume](/cv/).
+More on [GitHub](https://github.com/schlangens) and [Scott's Lab](https://scottslab.io/). Career narrative: [About](/about/) · full [Resume](/cv/).
 
 **Contact:** [scott@scottschlangen.com](mailto:scott@scottschlangen.com)
