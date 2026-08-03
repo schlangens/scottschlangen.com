@@ -50,6 +50,8 @@ body {
   letter-spacing: -0.01em;
   background-color: var(--paper);
   color: var(--ink-soft);
+  // Clear the fixed thin blue line
+  padding-top: 3px;
 }
 
 // Persistent thin blue line at the top of the site
@@ -84,11 +86,17 @@ a {
 }
 
 .navigation {
+  position: sticky;
+  // Sit under the fixed thin blue line on every page
+  top: 3px;
+  z-index: 400;
+  height: auto;
+  float: none;
+  width: 100%;
   background: color-mix(in srgb, var(--paper) 88%, transparent);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
-  // Sit under the fixed thin blue line
-  margin-top: 3px;
 
   a {
     transition: color 0.25s ease;
@@ -109,10 +117,11 @@ a {
   }
 
   .navigation-brand {
-    display: inline-flex;
+    display: inline-flex !important;
     align-items: center;
     gap: 1rem;
     min-width: 0;
+    float: none;
     text-decoration: none !important;
     color: var(--ink) !important;
 
@@ -131,10 +140,12 @@ a {
   }
 
   .navigation-avatar {
-    display: inline-flex;
-    flex: 0 0 auto;
-    width: 3.4rem;
-    height: 3.4rem;
+    display: block !important;
+    flex: 0 0 3.4rem;
+    width: 3.4rem !important;
+    height: 3.4rem !important;
+    max-width: 3.4rem !important;
+    max-height: 3.4rem !important;
     border-radius: 50%;
     overflow: hidden;
     box-shadow:
@@ -143,14 +154,17 @@ a {
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 
     img {
-      width: 100%;
-      height: 100%;
+      width: 3.4rem !important;
+      height: 3.4rem !important;
+      max-width: 3.4rem !important;
+      max-height: 3.4rem !important;
       object-fit: cover;
-      display: block;
+      display: block !important;
     }
   }
 
   .navigation-title {
+    display: inline !important;
     font-family: var(--font-display);
     font-weight: 700;
     font-size: 1.7rem;
@@ -163,7 +177,7 @@ a {
   }
 
   .navigation-list {
-    float: none;
+    float: none !important;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -173,7 +187,7 @@ a {
     padding: 0;
 
     .navigation-item {
-      float: none;
+      float: none !important;
 
       a,
       span {
@@ -283,38 +297,8 @@ hr {
   padding-left: 1.6rem;
 }
 
-.portfolio-title-row {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin: 0 0 2.2rem;
-}
-
-.portfolio-hero .avatar {
-  margin: 0;
-  flex: 0 0 auto;
-
-  img {
-    // Match approximate height of kicker + name + blue underline
-    display: block;
-    width: 10rem !important;
-    height: 10rem !important;
-    max-width: none;
-    border-radius: 28%;
-    object-fit: cover;
-    border: 2px solid color-mix(in srgb, var(--accent) 55%, transparent);
-    box-shadow: 0 1rem 2.4rem rgba(0, 0, 0, 0.45);
-    transition: transform 0.4s ease;
-  }
-}
-
-.portfolio-hero .avatar:hover img {
-  transform: translateY(-0.2rem) scale(1.02);
-}
-
 .portfolio-title-copy {
-  flex: 1 1 auto;
-  min-width: 0;
+  margin: 0 0 2.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1273,15 +1257,6 @@ body.colorscheme-dark .company-header .company-logo {
 
   .portfolio-hero__atmosphere::before {
     left: 1.2rem;
-  }
-
-  .portfolio-title-row {
-    gap: 1.4rem;
-  }
-
-  .portfolio-hero .avatar img {
-    width: 7.6rem !important;
-    height: 7.6rem !important;
   }
 }
 

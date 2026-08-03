@@ -2,12 +2,9 @@
   <div class="portfolio-hero">
     <div class="portfolio-hero__atmosphere" aria-hidden="true"></div>
     <div class="portfolio-hero__inner">
-      <div class="portfolio-title-row">
-        {{ partialCached "home/avatar.html" . }}
-        <div class="portfolio-title-copy">
-          <p class="portfolio-kicker">Security engineering · Detection · Response</p>
-          <h1 class="portfolio-brand">{{ .Site.Params.author }}</h1>
-        </div>
+      <div class="portfolio-title-copy">
+        <p class="portfolio-kicker">Security engineering · Detection · Response</p>
+        <h1 class="portfolio-brand">{{ .Site.Params.author }}</h1>
       </div>
       <p class="portfolio-lede">
         I help teams cut through alert noise, close real risk, and build the tooling a security program can actually run on.
