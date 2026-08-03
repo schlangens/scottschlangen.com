@@ -1,0 +1,44 @@
+{{/*
+  Reusable link tree for layouts.
+  Expects .context with:
+    rootHref, rootEyebrow, rootLabel
+    branches: slice of dicts { title, open, items: [{ href, label, hint }] }
+*/}}
+{{- $t := . -}}
+<div class="link-tree" data-link-tree>
+  {{- with $t.rootHref }}
+  <a class="link-tree__root" href="{{ . | safeURL }}"{{ if hasPrefix . "http" }} target="_blank" rel="noopener"{{ end }}>
+    <span class="link-tree__glyph" aria-hidden="true"></span>
+    <span class="link-tree__root-text">
+      <span class="link-tree__eyebrow">{{ $t.rootEyebrow | default "Links" }}</span>
+      {{ $t.rootLabel }}
+    </span>
+    <span class="link-tree__go" aria-hidden="true">{{ if hasPrefix . "http" }}↗{{ else }}→{{ end }}</span>
+  </a>
+  {{- end }}
+
+  {{- range $t.branches }}
+  {{- $open := true -}}
+  {{- if isset . "open" }}{{ $open = .open }}{{ end -}}
+  <div class="link-tree__branch{{ if $open }} is-open{{ end }}">
+    <button class="link-tree__toggle" type="button" aria-expanded="{{ if $open }}true{{ else }}false{{ end }}">
+      <span class="link-tree__branch-mark" aria-hidden="true"></span>
+      {{ .title }}
+      <span class="link-tree__chevron" aria-hidden="true"></span>
+    </button>
+    <ul class="link-tree__list">
+      {{- range .items }}
+      <li>
+        <a href="{{ .href | safeURL }}"{{ if hasPrefix .href "http" }} target="_blank" rel="noopener"{{ end }}>
+          <span class="link-tree__rail" aria-hidden="true"></span>
+          {{ .label }}
+          {{- with .hint }}
+          <span class="link-tree__hint">{{ . }}</span>
+          {{- end }}
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+  {{- end }}
+</div>

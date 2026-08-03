@@ -416,13 +416,22 @@ hr {
   }
 }
 
-// Interactive link tree (Now page)
+// Interactive link tree (sitewide)
 .link-tree {
   --tree-indent: 2.2rem;
   max-width: 56rem;
   margin: 2.4rem 0 3.2rem;
   padding: 0.4rem 0 0.4rem 1.2rem;
   border-left: 2px solid color-mix(in srgb, var(--blue-line) 55%, transparent);
+}
+
+.link-tree + .link-tree {
+  margin-top: 3.6rem;
+}
+
+.portfolio-lab .link-tree,
+.portfolio-connect .link-tree {
+  margin-top: 2.8rem;
 }
 
 .link-tree__root {

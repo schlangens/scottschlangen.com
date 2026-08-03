@@ -18,14 +18,52 @@ I got here the long way: a county sheriff's office, cable installation, a hospit
 
 **Programs outlast people.** When I left Carmel, the runbook and handoff package covering 40+ segments mattered as much as the posture score. Security that depends on one brain isn't security.
 
-**Write down the trade-offs.** On [Scott's Lab](https://scottslab.io/) I document specific problems in specific environments — what I chose, what it cost, and what I'd do differently. No listicles.
+**Write down the trade-offs.** On Scott's Lab I document specific problems in specific environments — what I chose, what it cost, and what I'd do differently. No listicles.
 
 ### Outside the ticket queue
 
-[scottslab.io](https://scottslab.io/) is where that work gets published: home-lab SIEM (Wazuh with custom detections), forensics pipelines, Ansible/Ludus automation, open tools like [Scrambler](https://scramble.scottslab.io) and [WX Dashboard](https://wx.scottslab.io), and notes on AI in security ops. I also keep a public GitHub of security utilities and experiment with AI coding agents and MCP-integrated automation in sandboxed, credential-scoped setups.
+scottslab.io is where that work gets published: home-lab SIEM (Wazuh with custom detections), forensics pipelines, Ansible/Ludus automation, open tools, and notes on AI in security ops. I also keep a public GitHub of security utilities and experiment with AI coding agents and MCP-integrated automation in sandboxed, credential-scoped setups.
 
 I'm working toward the ISC2 CISSP (exam booked for August 2026) and finishing a B.S. in Cybersecurity and Information Assurance at Western Governors University.
 
-If you want the full timeline, it's on the [Resume](/cv/). If you want what I'm focused on this season, see [Now](/now/).
+{{< linktree >}}
+{{< linktree-root href="https://scottslab.io/" eyebrow="Explore" >}}
+Scott's Lab & more
+{{< /linktree-root >}}
 
-**Contact:** [scott@scottschlangen.com](mailto:scott@scottschlangen.com) · [LinkedIn](https://www.linkedin.com/in/scottschlangen/) · [GitHub](https://github.com/schlangens) · [Scott's Lab](https://scottslab.io/)
+{{< linktree-branch title="Writing & tools" >}}
+{{< linktree-item href="https://scottslab.io/" hint="Lab" >}}
+Scott's Lab
+{{< /linktree-item >}}
+{{< linktree-item href="https://scramble.scottslab.io" hint="PII scrub" >}}
+Scrambler
+{{< /linktree-item >}}
+{{< linktree-item href="https://wx.scottslab.io" hint="Weather" >}}
+WX Dashboard
+{{< /linktree-item >}}
+{{< linktree-item href="https://github.com/schlangens" hint="Code" >}}
+GitHub
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+
+{{< linktree-branch title="On this site" >}}
+{{< linktree-item href="/cv/" hint="Timeline" >}}
+Resume
+{{< /linktree-item >}}
+{{< linktree-item href="/now/" hint="Focus" >}}
+Now
+{{< /linktree-item >}}
+{{< linktree-item href="/tools/" hint="Build" >}}
+Projects
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+
+{{< linktree-branch title="Contact" >}}
+{{< linktree-item href="mailto:scott@scottschlangen.com" hint="Email" >}}
+scott@scottschlangen.com
+{{< /linktree-item >}}
+{{< linktree-item href="https://www.linkedin.com/in/scottschlangen/" hint="LinkedIn" >}}
+LinkedIn
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+{{< /linktree >}}

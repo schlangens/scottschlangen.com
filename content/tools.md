@@ -4,70 +4,95 @@ description = "Security tools, writing, and experiments by Scott Schlangen"
 aliases = ["tools", "projects"]
 +++
 
-Work that lives outside the ticket queue — tools operators can use, writing that clarifies the craft, and the home-lab systems I test ideas in. A lot of this ships through [Scott's Lab](https://scottslab.io/).
+Work that lives outside the ticket queue — tools operators can use, writing that clarifies the craft, and the home-lab systems I test ideas in.
 
-## From [scottslab.io](https://scottslab.io/)
+{{< linktree >}}
+{{< linktree-root href="https://scottslab.io/" eyebrow="Lab" >}}
+Scott's Lab
+{{< /linktree-root >}}
 
-### Open tools
+{{< linktree-branch title="Open tools" >}}
+{{< linktree-item href="https://scramble.scottslab.io" hint="PII scrub" >}}
+Scrambler
+{{< /linktree-item >}}
+{{< linktree-item href="https://wx.scottslab.io" hint="Weather" >}}
+WX Dashboard
+{{< /linktree-item >}}
+{{< linktree-item href="https://chef.scottslab.io" hint="Transform" >}}
+CyberChef
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
 
-- **[Scrambler](https://scramble.scottslab.io)** — Anonymize PII for public LLMs, 100% client-side
-- **[WX Dashboard](https://wx.scottslab.io)** — Indiana weather streams and alerts
-- **[CyberChef](https://chef.scottslab.io)** — Encoding, decoding, encryption, and data analysis
+{{< linktree-branch title="Recent writing" >}}
+{{< linktree-item href="https://scottslab.io/posts/hacking-with-ai-security-engineers-guide" hint="AI security" >}}
+Hacking with AI
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/posts/home-lab-siem-wazuh-custom-detection" hint="SIEM" >}}
+Home lab SIEM with Wazuh
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/posts/csi-linux-digital-forensics-workstation" hint="DFIR" >}}
+CSI Linux forensics workstation
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/posts/forensic-evidence-pipeline-workstation-to-locker" hint="Evidence" >}}
+Forensic evidence pipeline
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/posts/ansible-ludus-homelab-infrastructure-as-code" hint="IaC" >}}
+Ansible & Ludus home lab
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/posts/action1-windows-management-ansible-alternative" hint="Windows" >}}
+Action1 for Windows management
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/posts" hint="All posts" >}}
+All Lab posts
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
 
-### Recent writing
+{{< linktree-branch title="GitHub projects" >}}
+{{< linktree-item href="https://github.com/schlangens/EventID-Scraper" hint="Python" >}}
+EventID-Scraper
+{{< /linktree-item >}}
+{{< linktree-item href="https://github.com/schlangens/ir-logger" hint="IR notes" >}}
+IR-Logger
+{{< /linktree-item >}}
+{{< linktree-item href="https://github.com/schlangens" hint="Profile" >}}
+All repositories
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+{{< /linktree >}}
 
-- [Hacking with AI: What Security Engineers Get Wrong](https://scottslab.io/posts/hacking-with-ai-security-engineers-guide) — Practitioner guide grounded in OWASP vendor criteria
-- [Building a Home Lab SIEM with Wazuh](https://scottslab.io/posts/home-lab-siem-wazuh-custom-detection) — 16 hosts, 60+ custom detection rules
-- [CSI Linux as a forensics workstation](https://scottslab.io/posts/csi-linux-digital-forensics-workstation) — Why CSI Linux is my digital forensics daily driver
-- [Forensic evidence pipeline](https://scottslab.io/posts/forensic-evidence-pipeline-workstation-to-locker) — Workstation to evidence locker
-- [Ansible & Ludus home lab IaC](https://scottslab.io/posts/ansible-ludus-homelab-infrastructure-as-code) — Automating a home lab with infrastructure as code
-- [Action1 as an Ansible alternative for Windows](https://scottslab.io/posts/action1-windows-management-ansible-alternative) — Windows management without the WinRM pain
+### Project notes
 
-[All Lab posts →](https://scottslab.io/posts)
+**EventID-Scraper** — Faster Windows security event lookups during detection engineering. Aggregates Event ID context from authoritative sources so analysts spend less time tab-hopping and more time deciding. Python · web scraping · security research.
 
-<div class="project-block">
+**IR-Logger** — CLI for incident responders who need organized notes while the investigation is still moving. Logs observations, actions, and findings straight into markdown. Python · Markdown · CLI.
 
-## [EventID-Scraper](https://github.com/schlangens/EventID-Scraper)
+**Vulnerability reporting framework** — Internal Python framework (built at the City of Carmel) that ingested vulnerability exports across 40+ network segments, mapped findings to MITRE ATT&CK, and produced dual-format reports — cutting monthly analysis from hours to under 30 seconds.
 
-A reference tool for faster Windows security event lookups during detection engineering. Aggregates Event ID context from authoritative sources so analysts spend less time tab-hopping and more time deciding.
+**AI agent & MCP automation** — Hands-on work running AI coding agents and MCP-integrated automation platforms — scheduled agent jobs, sandboxed execution, and credential-scoped workflows. See [Hacking with AI](https://scottslab.io/posts/hacking-with-ai-security-engineers-guide).
 
-**Stack:** Python · web scraping · security research  
-**Use when:** Log analysis, detection rule authoring, threat hunting
+{{< linktree >}}
+{{< linktree-root href="/about/" eyebrow="Next" >}}
+Keep reading
+{{< /linktree-root >}}
 
-</div>
+{{< linktree-branch title="On this site" >}}
+{{< linktree-item href="/about/" hint="Story" >}}
+About
+{{< /linktree-item >}}
+{{< linktree-item href="/cv/" hint="Timeline" >}}
+Resume
+{{< /linktree-item >}}
+{{< linktree-item href="/now/" hint="Focus" >}}
+Now
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
 
-<div class="project-block">
-
-## [IR-Logger](https://github.com/schlangens/ir-logger)
-
-A CLI for incident responders who need organized notes while the investigation is still moving. Logs observations, actions, and findings straight into markdown so the timeline survives the handoff.
-
-**Stack:** Python · Markdown · CLI  
-**Use when:** Active IR, forensic note-taking, investigation tracking
-
-</div>
-
-<div class="project-block">
-
-## Vulnerability reporting framework
-
-Internal Python framework (built at the City of Carmel) that ingested vulnerability exports across 40+ network segments, mapped findings to MITRE ATT&CK, and produced dual-format reports — cutting monthly analysis from hours to under 30 seconds.
-
-**Stack:** Python · MITRE ATT&CK · reporting pipelines  
-**Outcome:** Faster triage, clearer leadership briefs, less spreadsheet archaeology
-
-</div>
-
-<div class="project-block">
-
-## AI agent & MCP automation
-
-Hands-on work running AI coding agents and MCP-integrated automation platforms — scheduled agent jobs, sandboxed execution, and credential-scoped workflows. Written up in more depth on the Lab, including [Hacking with AI](https://scottslab.io/posts/hacking-with-ai-security-engineers-guide).
-
-</div>
-
----
-
-More on [GitHub](https://github.com/schlangens) and [Scott's Lab](https://scottslab.io/). Career narrative: [About](/about/) · full [Resume](/cv/).
-
-**Contact:** [scott@scottschlangen.com](mailto:scott@scottschlangen.com)
+{{< linktree-branch title="Contact" >}}
+{{< linktree-item href="mailto:scott@scottschlangen.com" hint="Email" >}}
+scott@scottschlangen.com
+{{< /linktree-item >}}
+{{< linktree-item href="https://www.linkedin.com/in/scottschlangen/" hint="LinkedIn" >}}
+LinkedIn
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+{{< /linktree >}}

@@ -8,9 +8,28 @@ aliases = ["cv", "resume"]
 
 **Security Engineer** · Detection Engineering · Vulnerability Management · Incident Response · Security Automation
 
-<i class="fa fa-envelope"></i> [scott@scottschlangen.com](mailto:scott@scottschlangen.com) · <i class="fa fa-github"></i> [GitHub](https://github.com/schlangens) · <i class="fa fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/scottschlangen/) · <i class="fa fa-flask"></i> [Scott's Lab](https://scottslab.io/)
-
 Indianapolis, IN · Eastern Time
+
+{{< linktree >}}
+{{< linktree-root href="mailto:scott@scottschlangen.com" eyebrow="Connect" >}}
+Get in touch
+{{< /linktree-root >}}
+
+{{< linktree-branch title="Contact" >}}
+{{< linktree-item href="mailto:scott@scottschlangen.com" hint="Email" >}}
+scott@scottschlangen.com
+{{< /linktree-item >}}
+{{< linktree-item href="https://www.linkedin.com/in/scottschlangen/" hint="LinkedIn" >}}
+LinkedIn
+{{< /linktree-item >}}
+{{< linktree-item href="https://github.com/schlangens" hint="GitHub" >}}
+GitHub
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/" hint="Lab" >}}
+Scott's Lab
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+{{< /linktree >}}
 
 ## Summary
 
@@ -125,9 +144,46 @@ IT Contractor — Napa Balkamp (2018); Kinney Group (2018, Splunk environment). 
 
 ## Projects & Public Work
 
-- **[Scott's Lab](https://scottslab.io/)** — Writing and open tools: [Hacking with AI](https://scottslab.io/posts/hacking-with-ai-security-engineers-guide), [Wazuh home-lab SIEM](https://scottslab.io/posts/home-lab-siem-wazuh-custom-detection), [Scrambler](https://scramble.scottslab.io), [WX Dashboard](https://wx.scottslab.io), [CyberChef](https://chef.scottslab.io)
-- **[GitHub](https://github.com/schlangens)** — Public security tooling and home lab automation, including [EventID-Scraper](https://github.com/schlangens/EventID-Scraper)
-- **AI agent tooling** — Hands-on orchestration of AI coding agents and MCP-integrated automation platforms, including scheduled jobs, sandboxed execution, and credential-scoped automation
+Hands-on orchestration of AI coding agents and MCP-integrated automation platforms, including scheduled jobs, sandboxed execution, and credential-scoped automation.
+
+{{< linktree >}}
+{{< linktree-root href="https://scottslab.io/" eyebrow="Public work" >}}
+Scott's Lab & GitHub
+{{< /linktree-root >}}
+
+{{< linktree-branch title="Writing" >}}
+{{< linktree-item href="https://scottslab.io/posts/hacking-with-ai-security-engineers-guide" hint="AI security" >}}
+Hacking with AI
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/posts/home-lab-siem-wazuh-custom-detection" hint="SIEM" >}}
+Wazuh home-lab SIEM
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/" hint="Blog" >}}
+All Lab posts
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+
+{{< linktree-branch title="Open tools" >}}
+{{< linktree-item href="https://scramble.scottslab.io" hint="PII scrub" >}}
+Scrambler
+{{< /linktree-item >}}
+{{< linktree-item href="https://wx.scottslab.io" hint="Weather" >}}
+WX Dashboard
+{{< /linktree-item >}}
+{{< linktree-item href="https://chef.scottslab.io" hint="Transform" >}}
+CyberChef
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+
+{{< linktree-branch title="GitHub" >}}
+{{< linktree-item href="https://github.com/schlangens/EventID-Scraper" hint="Python" >}}
+EventID-Scraper
+{{< /linktree-item >}}
+{{< linktree-item href="https://github.com/schlangens" hint="Profile" >}}
+Public security tooling
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+{{< /linktree >}}
 
 ## Certifications
 

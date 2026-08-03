@@ -18,102 +18,44 @@ aliases = ["now"]
 
 ### Building & writing
 
-<div class="link-tree" data-link-tree>
-  <a class="link-tree__root" href="https://scottslab.io/" target="_blank" rel="noopener">
-    <span class="link-tree__glyph" aria-hidden="true"></span>
-    <span class="link-tree__root-text">
-      <span class="link-tree__eyebrow">Home base</span>
-      Scott's Lab
-    </span>
-    <span class="link-tree__go" aria-hidden="true">↗</span>
-  </a>
+{{< linktree >}}
+{{< linktree-root href="https://scottslab.io/" eyebrow="Home base" >}}
+Scott's Lab
+{{< /linktree-root >}}
 
-  <div class="link-tree__branch is-open">
-    <button class="link-tree__toggle" type="button" aria-expanded="true">
-      <span class="link-tree__branch-mark" aria-hidden="true"></span>
-      Writing
-      <span class="link-tree__chevron" aria-hidden="true"></span>
-    </button>
-    <ul class="link-tree__list">
-      <li>
-        <a href="https://scottslab.io/posts/hacking-with-ai-security-engineers-guide" target="_blank" rel="noopener">
-          <span class="link-tree__rail" aria-hidden="true"></span>
-          Hacking with AI
-          <span class="link-tree__hint">Security ops</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://scottslab.io/posts/home-lab-siem-wazuh-custom-detection" target="_blank" rel="noopener">
-          <span class="link-tree__rail" aria-hidden="true"></span>
-          Wazuh home-lab SIEM
-          <span class="link-tree__hint">Detection</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://scottslab.io/posts/csi-linux-digital-forensics-workstation" target="_blank" rel="noopener">
-          <span class="link-tree__rail" aria-hidden="true"></span>
-          CSI Linux forensics
-          <span class="link-tree__hint">DFIR</span>
-        </a>
-      </li>
-    </ul>
-  </div>
+{{< linktree-branch title="Writing" >}}
+{{< linktree-item href="https://scottslab.io/posts/hacking-with-ai-security-engineers-guide" hint="Security ops" >}}
+Hacking with AI
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/posts/home-lab-siem-wazuh-custom-detection" hint="Detection" >}}
+Wazuh home-lab SIEM
+{{< /linktree-item >}}
+{{< linktree-item href="https://scottslab.io/posts/csi-linux-digital-forensics-workstation" hint="DFIR" >}}
+CSI Linux forensics
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
 
-  <div class="link-tree__branch is-open">
-    <button class="link-tree__toggle" type="button" aria-expanded="true">
-      <span class="link-tree__branch-mark" aria-hidden="true"></span>
-      Open tools
-      <span class="link-tree__chevron" aria-hidden="true"></span>
-    </button>
-    <ul class="link-tree__list">
-      <li>
-        <a href="https://scramble.scottslab.io" target="_blank" rel="noopener">
-          <span class="link-tree__rail" aria-hidden="true"></span>
-          Scrambler
-          <span class="link-tree__hint">PII scrub</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://wx.scottslab.io" target="_blank" rel="noopener">
-          <span class="link-tree__rail" aria-hidden="true"></span>
-          WX Dashboard
-          <span class="link-tree__hint">Weather</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://chef.scottslab.io" target="_blank" rel="noopener">
-          <span class="link-tree__rail" aria-hidden="true"></span>
-          CyberChef
-          <span class="link-tree__hint">Transform</span>
-        </a>
-      </li>
-    </ul>
-  </div>
+{{< linktree-branch title="Open tools" >}}
+{{< linktree-item href="https://scramble.scottslab.io" hint="PII scrub" >}}
+Scrambler
+{{< /linktree-item >}}
+{{< linktree-item href="https://wx.scottslab.io" hint="Weather" >}}
+WX Dashboard
+{{< /linktree-item >}}
+{{< linktree-item href="https://chef.scottslab.io" hint="Transform" >}}
+CyberChef
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
 
-  <div class="link-tree__branch is-open">
-    <button class="link-tree__toggle" type="button" aria-expanded="true">
-      <span class="link-tree__branch-mark" aria-hidden="true"></span>
-      GitHub
-      <span class="link-tree__chevron" aria-hidden="true"></span>
-    </button>
-    <ul class="link-tree__list">
-      <li>
-        <a href="https://github.com/schlangens" target="_blank" rel="noopener">
-          <span class="link-tree__rail" aria-hidden="true"></span>
-          Public security tooling
-          <span class="link-tree__hint">Profile</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/schlangens/EventID-Scraper" target="_blank" rel="noopener">
-          <span class="link-tree__rail" aria-hidden="true"></span>
-          EventID-Scraper
-          <span class="link-tree__hint">Python</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
+{{< linktree-branch title="GitHub" >}}
+{{< linktree-item href="https://github.com/schlangens" hint="Profile" >}}
+Public security tooling
+{{< /linktree-item >}}
+{{< linktree-item href="https://github.com/schlangens/EventID-Scraper" hint="Python" >}}
+EventID-Scraper
+{{< /linktree-item >}}
+{{< /linktree-branch >}}
+{{< /linktree >}}
 
 ### Base
 
