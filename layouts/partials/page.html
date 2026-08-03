@@ -1,0 +1,32 @@
+<section class="container page{{ if .Params.sidebar }} page--split{{ end }}">
+  <div class="page-layout{{ if .Params.sidebar }} page-layout--with-toc{{ end }}">
+    <article class="page-main">
+      <header class="page-header">
+        <h1 class="title">
+          <a class="title-link" href="{{ .Permalink | safeURL }}">
+            {{ .Title }}
+          </a>
+        </h1>
+        {{ with .Params.subtitle }}
+        <p class="page-subtitle">{{ . }}</p>
+        {{ end }}
+      </header>
+
+      <div class="page-body">
+        {{ .Content }}
+      </div>
+    </article>
+
+    {{ with .Params.sidebar }}
+    <aside class="page-toc" aria-label="{{ .label | default "Explore" }}">
+      <div class="page-toc__inner">
+        <div class="page-toc__label">{{ .label | default "Explore" }}</div>
+        {{ partial "link-tree.html" (dict
+          "compact" true
+          "branches" .groups
+        ) }}
+      </div>
+    </aside>
+    {{ end }}
+  </div>
+</section>

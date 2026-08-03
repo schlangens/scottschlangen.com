@@ -1,8 +1,45 @@
-+++
-title = "About"
-description = "Security engineer who builds the tooling and judgment a program actually runs on"
-aliases = ["about", "about-us", "contact"]
-+++
+---
+title: "About"
+description: "Security engineer who builds the tooling and judgment a program actually runs on"
+aliases: ["about", "about-us", "contact"]
+subtitle: "Signal over noise. Ownership over tickets."
+sidebar:
+  label: "Explore"
+  groups:
+    - title: "Lab"
+      items:
+        - label: "Scott's Lab"
+          href: "https://scottslab.io/"
+          hint: "Home"
+        - label: "Scrambler"
+          href: "https://scramble.scottslab.io"
+          hint: "PII"
+        - label: "WX Dashboard"
+          href: "https://wx.scottslab.io"
+          hint: "Weather"
+        - label: "GitHub"
+          href: "https://github.com/schlangens"
+          hint: "Code"
+    - title: "This site"
+      items:
+        - label: "Resume"
+          href: "/cv/"
+          hint: "Timeline"
+        - label: "Now"
+          href: "/now/"
+          hint: "Focus"
+        - label: "Projects"
+          href: "/tools/"
+          hint: "Build"
+    - title: "Contact"
+      items:
+        - label: "Email"
+          href: "mailto:scott@scottschlangen.com"
+          hint: "Mail"
+        - label: "LinkedIn"
+          href: "https://www.linkedin.com/in/scottschlangen/"
+          hint: "Network"
+---
 
 I'm Scott — a security engineer who cares less about shiny dashboards and more about whether a team can find the real signal, close the right risk, and sleep after an incident.
 
@@ -22,48 +59,6 @@ I got here the long way: a county sheriff's office, cable installation, a hospit
 
 ### Outside the ticket queue
 
-scottslab.io is where that work gets published: home-lab SIEM (Wazuh with custom detections), forensics pipelines, Ansible/Ludus automation, open tools, and notes on AI in security ops. I also keep a public GitHub of security utilities and experiment with AI coding agents and MCP-integrated automation in sandboxed, credential-scoped setups.
+The Lab is where that work gets published: home-lab SIEM with custom detections, forensics pipelines, Ansible/Ludus automation, open tools, and notes on AI in security ops. I also keep public security utilities on GitHub and experiment with AI coding agents and MCP-integrated automation in sandboxed, credential-scoped setups.
 
 I'm working toward the ISC2 CISSP (exam booked for August 2026) and finishing a B.S. in Cybersecurity and Information Assurance at Western Governors University.
-
-{{< linktree >}}
-{{< linktree-root href="https://scottslab.io/" eyebrow="Explore" >}}
-Scott's Lab & more
-{{< /linktree-root >}}
-
-{{< linktree-branch title="Writing & tools" >}}
-{{< linktree-item href="https://scottslab.io/" hint="Lab" >}}
-Scott's Lab
-{{< /linktree-item >}}
-{{< linktree-item href="https://scramble.scottslab.io" hint="PII scrub" >}}
-Scrambler
-{{< /linktree-item >}}
-{{< linktree-item href="https://wx.scottslab.io" hint="Weather" >}}
-WX Dashboard
-{{< /linktree-item >}}
-{{< linktree-item href="https://github.com/schlangens" hint="Code" >}}
-GitHub
-{{< /linktree-item >}}
-{{< /linktree-branch >}}
-
-{{< linktree-branch title="On this site" >}}
-{{< linktree-item href="/cv/" hint="Timeline" >}}
-Resume
-{{< /linktree-item >}}
-{{< linktree-item href="/now/" hint="Focus" >}}
-Now
-{{< /linktree-item >}}
-{{< linktree-item href="/tools/" hint="Build" >}}
-Projects
-{{< /linktree-item >}}
-{{< /linktree-branch >}}
-
-{{< linktree-branch title="Contact" >}}
-{{< linktree-item href="mailto:scott@scottschlangen.com" hint="Email" >}}
-scott@scottschlangen.com
-{{< /linktree-item >}}
-{{< linktree-item href="https://www.linkedin.com/in/scottschlangen/" hint="LinkedIn" >}}
-LinkedIn
-{{< /linktree-item >}}
-{{< /linktree-branch >}}
-{{< /linktree >}}

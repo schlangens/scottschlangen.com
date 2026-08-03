@@ -1,11 +1,13 @@
 {{/*
-  Reusable link tree for layouts.
-  Expects .context with:
-    rootHref, rootEyebrow, rootLabel
-    branches: slice of dicts { title, open, items: [{ href, label, hint }] }
+  Link tree / TOC sidebar.
+  Expects:
+    compact: bool (optional) — quieter TOC styling
+    rootHref, rootEyebrow, rootLabel (optional)
+    branches: [{ title, open, items: [{ href, label, hint }] }]
 */}}
 {{- $t := . -}}
-<div class="link-tree" data-link-tree>
+{{- $compact := $t.compact | default false -}}
+<div class="link-tree{{ if $compact }} link-tree--toc{{ end }}" data-link-tree>
   {{- with $t.rootHref }}
   <a class="link-tree__root" href="{{ . | safeURL }}"{{ if hasPrefix . "http" }} target="_blank" rel="noopener"{{ end }}>
     <span class="link-tree__glyph" aria-hidden="true"></span>
