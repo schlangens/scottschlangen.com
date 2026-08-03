@@ -1,33 +1,59 @@
 {{/*
-  Official Credly badge artwork for the homepage hero.
-  Column width matches the resume page TOC rail.
+  Credentials rail — link-tree list with official Credly badge logos.
+  Root links to the public Credly profile.
 */}}
+{{- $credly := "https://www.credly.com/users/scott-schlangen/badges" -}}
 <aside class="hero-creds" aria-label="Credentials">
-  <p class="portfolio-label">Credentials</p>
-  <ul class="hero-creds__grid">
-    {{ range slice
-      (dict "src" "img/certs/cysa.png" "name" "CySA+" "org" "CompTIA" "alt" "CompTIA CySA+ ce certification badge")
-      (dict "src" "img/certs/security-plus.png" "name" "Security+" "org" "CompTIA" "alt" "CompTIA Security+ ce certification badge")
-      (dict "src" "img/certs/cloud-plus.png" "name" "Cloud+" "org" "CompTIA" "alt" "CompTIA Cloud+ ce certification badge")
-      (dict "src" "img/certs/network-plus.png" "name" "Network+" "org" "CompTIA" "alt" "CompTIA Network+ ce certification badge")
-      (dict "src" "img/certs/aws-ccp.png" "name" "Cloud Practitioner" "org" "AWS" "alt" "AWS Certified Cloud Practitioner badge")
-      (dict "src" "img/certs/az-900.png" "name" "AZ-900" "org" "Microsoft" "alt" "Microsoft Azure Fundamentals badge")
-      (dict "src" "img/certs/sc-900.png" "name" "SC-900" "org" "Microsoft" "alt" "Microsoft Security, Compliance, and Identity Fundamentals badge")
-      (dict "src" "img/certs/btl1.png" "name" "BTL1" "org" "Security Blue Team" "alt" "Blue Team Level 1 certification badge")
-      (dict "src" "img/certs/cissp.png" "name" "CISSP" "org" "ISC2 · in progress" "alt" "ISC2 CISSP certification badge" "progress" true)
+  <div class="link-tree link-tree--creds" data-link-tree>
+    <a class="link-tree__root" href="{{ $credly }}" target="_blank" rel="noopener">
+      <span class="link-tree__glyph" aria-hidden="true"></span>
+      <span class="link-tree__root-text">
+        <span class="link-tree__eyebrow">Credentials</span>
+        Credly profile
+      </span>
+      <span class="link-tree__go" aria-hidden="true">↗</span>
+    </a>
+
+    {{- range slice
+      (dict "title" "Security" "items" (slice
+        (dict "src" "img/certs/cysa.png" "name" "CySA+" "org" "CompTIA" "hint" "CE")
+        (dict "src" "img/certs/security-plus.png" "name" "Security+" "org" "CompTIA" "hint" "CE")
+        (dict "src" "img/certs/btl1.png" "name" "BTL1" "org" "Security Blue Team" "hint" "Blue")
+        (dict "src" "img/certs/sc-900.png" "name" "SC-900" "org" "Microsoft" "hint" "Security")
+        (dict "src" "img/certs/cissp.png" "name" "CISSP" "org" "ISC2" "hint" "In progress" "progress" true)
+      ))
+      (dict "title" "Cloud & infra" "items" (slice
+        (dict "src" "img/certs/cloud-plus.png" "name" "Cloud+" "org" "CompTIA" "hint" "CE")
+        (dict "src" "img/certs/network-plus.png" "name" "Network+" "org" "CompTIA" "hint" "CE")
+        (dict "src" "img/certs/aws-ccp.png" "name" "Cloud Practitioner" "org" "AWS" "hint" "Foundational")
+        (dict "src" "img/certs/az-900.png" "name" "AZ-900" "org" "Microsoft Azure" "hint" "Fundamentals")
+      ))
     }}
-    <li>
-      <a class="hero-cred{{ if .progress }} hero-cred--progress{{ end }}" href="{{ "cv/#certifications" | relURL }}" title="{{ .alt }}">
-        <span class="hero-cred__logo">
-          <img src="{{ .src | relURL }}" alt="{{ .alt }}" width="340" height="340" loading="lazy">
-        </span>
-        <span class="hero-cred__text">
-          <span class="hero-cred__name">{{ .name }}</span>
-          <span class="hero-cred__org">{{ .org }}</span>
-        </span>
-      </a>
-    </li>
-    {{ end }}
-  </ul>
-  <a class="hero-creds__more text-link" href="{{ "cv/#certifications" | relURL }}">Full credentials →</a>
+    <div class="link-tree__branch is-open">
+      <button class="link-tree__toggle" type="button" aria-expanded="true">
+        <span class="link-tree__branch-mark" aria-hidden="true"></span>
+        {{ .title }}
+        <span class="link-tree__chevron" aria-hidden="true"></span>
+      </button>
+      <ul class="link-tree__list hero-creds__list">
+        {{- range .items }}
+        <li>
+          <a class="hero-cred{{ if .progress }} hero-cred--progress{{ end }}" href="{{ $credly }}" target="_blank" rel="noopener">
+            <span class="hero-cred__logo">
+              <img src="{{ .src | relURL }}" alt="" width="64" height="64" loading="lazy">
+            </span>
+            <span class="hero-cred__text">
+              <span class="hero-cred__name">{{ .name }}</span>
+              <span class="hero-cred__org">{{ .org }}</span>
+            </span>
+            {{- with .hint }}
+            <span class="link-tree__hint">{{ . }}</span>
+            {{- end }}
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </div>
 </aside>
