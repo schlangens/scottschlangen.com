@@ -1,40 +1,25 @@
 {{/*
-  Neat monochrome credential marks for the homepage hero.
-  Linked to the resume certifications section.
+  Official Credly badge artwork for the homepage hero.
+  Column width matches the resume page TOC rail.
 */}}
 <aside class="hero-creds" aria-label="Credentials">
   <p class="portfolio-label">Credentials</p>
   <ul class="hero-creds__grid">
     {{ range slice
-      (dict "code" "CySA+" "name" "CySA+" "org" "CompTIA")
-      (dict "code" "Sec+" "name" "Security+" "org" "CompTIA")
-      (dict "code" "Cloud+" "name" "Cloud+" "org" "CompTIA")
-      (dict "code" "Net+" "name" "Network+" "org" "CompTIA")
-      (dict "code" "AWS" "name" "Cloud Practitioner" "org" "Amazon Web Services")
-      (dict "code" "AZ-900" "name" "AZ-900" "org" "Microsoft Azure")
-      (dict "code" "SC-900" "name" "SC-900" "org" "Microsoft Security")
-      (dict "code" "BTL1" "name" "BTL1" "org" "Blue Team Level 1")
-      (dict "code" "CISSP" "name" "CISSP" "org" "ISC2 · in progress" "progress" true)
+      (dict "src" "img/certs/cysa.png" "name" "CySA+" "org" "CompTIA" "alt" "CompTIA CySA+ ce certification badge")
+      (dict "src" "img/certs/security-plus.png" "name" "Security+" "org" "CompTIA" "alt" "CompTIA Security+ ce certification badge")
+      (dict "src" "img/certs/cloud-plus.png" "name" "Cloud+" "org" "CompTIA" "alt" "CompTIA Cloud+ ce certification badge")
+      (dict "src" "img/certs/network-plus.png" "name" "Network+" "org" "CompTIA" "alt" "CompTIA Network+ ce certification badge")
+      (dict "src" "img/certs/aws-ccp.png" "name" "Cloud Practitioner" "org" "AWS" "alt" "AWS Certified Cloud Practitioner badge")
+      (dict "src" "img/certs/az-900.png" "name" "AZ-900" "org" "Microsoft" "alt" "Microsoft Azure Fundamentals badge")
+      (dict "src" "img/certs/sc-900.png" "name" "SC-900" "org" "Microsoft" "alt" "Microsoft Security, Compliance, and Identity Fundamentals badge")
+      (dict "src" "img/certs/btl1.png" "name" "BTL1" "org" "Security Blue Team" "alt" "Blue Team Level 1 certification badge")
+      (dict "src" "img/certs/cissp.png" "name" "CISSP" "org" "ISC2 · in progress" "alt" "ISC2 CISSP certification badge" "progress" true)
     }}
     <li>
-      <a class="hero-cred{{ if .progress }} hero-cred--progress{{ end }}" href="{{ "cv/#certifications" | relURL }}">
-        <span class="hero-cred__mark" aria-hidden="true">
-          <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-            {{ if .progress }}
-            <rect x="3.5" y="3.5" width="49" height="49" rx="12" stroke="currentColor" stroke-width="1.75" stroke-dasharray="3.8 2.8"/>
-            {{ else }}
-            <rect x="3.5" y="3.5" width="49" height="49" rx="12" stroke="currentColor" stroke-width="1.75"/>
-            {{ end }}
-            <text
-              x="28"
-              y="33"
-              text-anchor="middle"
-              fill="currentColor"
-              font-size="{{ if gt (len .code) 4 }}11{{ else if gt (len .code) 3 }}12.5{{ else }}14{{ end }}"
-              font-weight="800"
-              font-family="Syne, Segoe UI, sans-serif"
-              letter-spacing="-0.04em">{{ .code }}</text>
-          </svg>
+      <a class="hero-cred{{ if .progress }} hero-cred--progress{{ end }}" href="{{ "cv/#certifications" | relURL }}" title="{{ .alt }}">
+        <span class="hero-cred__logo">
+          <img src="{{ .src | relURL }}" alt="{{ .alt }}" width="340" height="340" loading="lazy">
         </span>
         <span class="hero-cred__text">
           <span class="hero-cred__name">{{ .name }}</span>
