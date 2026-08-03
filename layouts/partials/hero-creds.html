@@ -1,11 +1,11 @@
 {{/*
   Credentials rail — link-tree list with official Credly badge logos.
-  Root links to the public Credly profile.
+  Root → full Credly profile; each row → that badge’s Credly page.
 */}}
-{{- $credly := "https://www.credly.com/users/scott-schlangen/badges" -}}
+{{- $credlyProfile := "https://www.credly.com/users/scott-schlangen/badges" -}}
 <aside class="hero-creds" aria-label="Credentials">
   <div class="link-tree link-tree--creds" data-link-tree>
-    <a class="link-tree__root" href="{{ $credly }}" target="_blank" rel="noopener">
+    <a class="link-tree__root" href="{{ $credlyProfile }}" target="_blank" rel="noopener">
       <span class="link-tree__glyph" aria-hidden="true"></span>
       <span class="link-tree__root-text">
         <span class="link-tree__eyebrow">Credentials</span>
@@ -16,17 +16,17 @@
 
     {{- range slice
       (dict "title" "Security" "items" (slice
-        (dict "src" "img/certs/cysa.png" "name" "CySA+" "org" "CompTIA" "hint" "CE")
-        (dict "src" "img/certs/security-plus.png" "name" "Security+" "org" "CompTIA" "hint" "CE")
-        (dict "src" "img/certs/btl1.png" "name" "BTL1" "org" "Security Blue Team" "hint" "Blue")
-        (dict "src" "img/certs/sc-900.png" "name" "SC-900" "org" "Microsoft" "hint" "Security")
-        (dict "src" "img/certs/cissp.png" "name" "CISSP" "org" "ISC2" "hint" "In progress" "progress" true)
+        (dict "src" "img/certs/cysa.png" "name" "CySA+" "org" "CompTIA" "hint" "CE" "href" "https://www.credly.com/badges/e0f1cfd8-aa0f-43ed-aef4-af08497ff984")
+        (dict "src" "img/certs/security-plus.png" "name" "Security+" "org" "CompTIA" "hint" "CE" "href" "https://www.credly.com/badges/daff6a72-0fd8-462a-9a1c-73c6572de7d7")
+        (dict "src" "img/certs/btl1.png" "name" "BTL1" "org" "Security Blue Team" "hint" "Blue" "href" "https://www.credly.com/badges/cf5db216-149f-4bd5-964c-b1a3e4f4c877")
+        (dict "src" "img/certs/sc-900.png" "name" "SC-900" "org" "Microsoft" "hint" "Security" "href" $credlyProfile)
+        (dict "src" "img/certs/cissp.png" "name" "CISSP" "org" "ISC2 Candidate" "hint" "In progress" "progress" true "href" "https://www.credly.com/badges/cc01b844-1da0-4f43-9679-81d4da3906e9")
       ))
       (dict "title" "Cloud & infra" "items" (slice
-        (dict "src" "img/certs/cloud-plus.png" "name" "Cloud+" "org" "CompTIA" "hint" "CE")
-        (dict "src" "img/certs/network-plus.png" "name" "Network+" "org" "CompTIA" "hint" "CE")
-        (dict "src" "img/certs/aws-ccp.png" "name" "Cloud Practitioner" "org" "AWS" "hint" "Foundational")
-        (dict "src" "img/certs/az-900.png" "name" "AZ-900" "org" "Microsoft Azure" "hint" "Fundamentals")
+        (dict "src" "img/certs/cloud-plus.png" "name" "Cloud+" "org" "CompTIA" "hint" "CE" "href" "https://www.credly.com/badges/28221ef2-152f-46ab-b463-93188b67e4c9")
+        (dict "src" "img/certs/network-plus.png" "name" "Network+" "org" "CompTIA" "hint" "CE" "href" "https://www.credly.com/badges/303b7aeb-6553-416f-a297-69e435d122de")
+        (dict "src" "img/certs/aws-ccp.png" "name" "Cloud Practitioner" "org" "AWS" "hint" "Foundational" "href" "https://www.credly.com/badges/4d5cfcfe-1dc1-44b9-a381-528d2ac8e0e1")
+        (dict "src" "img/certs/az-900.png" "name" "AZ-900" "org" "Microsoft Azure" "hint" "Fundamentals" "href" $credlyProfile)
       ))
     }}
     <div class="link-tree__branch is-open">
@@ -37,8 +37,9 @@
       </button>
       <ul class="link-tree__list hero-creds__list">
         {{- range .items }}
+        {{- $href := .href | default $credlyProfile -}}
         <li>
-          <a class="hero-cred{{ if .progress }} hero-cred--progress{{ end }}" href="{{ $credly }}" target="_blank" rel="noopener">
+          <a class="hero-cred{{ if .progress }} hero-cred--progress{{ end }}" href="{{ $href | safeURL }}" target="_blank" rel="noopener">
             <span class="hero-cred__logo">
               <img src="{{ .src | relURL }}" alt="" width="64" height="64" loading="lazy">
             </span>
