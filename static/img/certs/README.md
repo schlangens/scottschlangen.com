@@ -12,7 +12,7 @@ Downloaded from images.credly.com (issuer badge templates) for personal portfoli
 | aws-ccp.png | AWS Certified Cloud Practitioner |
 | az-900.png | Microsoft Azure Fundamentals |
 | sc-900.png | Microsoft Security, Compliance, and Identity Fundamentals |
-| btl1.png | Blue Team Level 1 |
-| ccdl2.png | Certified CyberDefender Level 2 (CCDL2) |
-| ransomware-negotiation.png | Ransomware Negotiation and Threat Intelligence |
+| btl1.png | Blue Team Level 1 (Centri) |
+| ccdl2.png | Certified Cyber Defender Level 2 (CCDL2) |
+| ransomware-negotiation.png | Ransomware Negotiation and Threat Intelligence (Centri) |
 | cissp.png | ISC2 CISSP |

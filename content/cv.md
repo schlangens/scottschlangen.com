@@ -180,7 +180,7 @@ Hands-on orchestration of AI coding agents and MCP-integrated automation platfor
 
 **In progress:** Microsoft SC-300 · SC-200 · SC-500 · SC-100 (target: end of 2026)
 
-**Security:** CISSP · CompTIA CySA+ ce · CompTIA Security+ ce · CompTIA Security Analytics Professional (CSAP) · Blue Team Level 1 (BTL1) · Certified CyberDefender Level 2 (CCDL2) · Wazuh for Security Engineers · Ransomware Negotiation and Threat Intelligence
+**Security:** CISSP · CompTIA CySA+ ce · CompTIA Security+ ce · CompTIA Security Analytics Professional (CSAP) · Blue Team Level 1 (BTL1) — Centri · Certified Cyber Defender Level 2 (CCDL2) · Wazuh for Security Engineers · Ransomware Negotiation and Threat Intelligence — Centri
 
 **Cloud & Infrastructure:** CompTIA Cloud+ ce · CompTIA Secure Cloud Professional (CSCP) · CompTIA Cloud Admin Professional (CCAP) · AWS Certified Cloud Practitioner · Microsoft Certified: Azure Fundamentals · Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900) · CompTIA Network+ ce
 
