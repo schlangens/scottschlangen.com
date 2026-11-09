@@ -135,58 +135,6 @@ Monitored and analyzed security alerts across client environments using SIEM pla
 
 Core skills include threat detection, SIEM operations, detection engineering and incident response.
 
-<div class="company-header">
-  <img src="/img/logos/mie.png" alt="Medical Informatics Engineering" class="company-logo">
-  <h3>Medical Informatics Engineering · Apr 2023 – Aug 2023 · Fort Wayne, IN</h3>
-</div>
-
-**DevOps Technician**
-
-- Managed infrastructure automation, deployment pipelines, and system configuration for an EHR provider in a HIPAA-regulated environment.
-- Automated deployment and configuration management; monitored system health and security events across production healthcare infrastructure.
-
-### CommandLink · Nov 2022 – Jun 2023 · Remote
-
-**Network Engineer**
-
-- Engineered enterprise SD-WAN, MPLS, and cloud connectivity with security as a design requirement.
-- Configured firewalls, VPNs, and network segmentation; collaborated with security teams on network-layer incident response.
-
-### Team Cymru · Apr 2022 – Aug 2022 · Remote
-
-**Client Support Specialist**
-
-- Supported enterprise threat intelligence customers on the Pure Signal platform — IP reputation and network flow analysis — helping Fortune 500 security teams operationalize threat intel feeds into detection and response workflows.
-
-<div class="company-header">
-  <img src="/img/logos/netgain.png" alt="NetGain Technologies" class="company-logo">
-  <h3>NetGain Technologies · Oct 2021 – Apr 2022 · Lexington, KY</h3>
-</div>
-
-**Field Engineer**
-
-- Delivered on-site infrastructure and security support for managed services clients across healthcare, manufacturing, and professional services.
-- Performed network security hardening and firewall rule optimization; managed EDR, patching, and vulnerability remediation under HIPAA and PCI requirements.
-
-<div class="company-header">
-  <img src="/img/logos/everstream.png" alt="Everstream" class="company-logo">
-  <h3>Everstream · Nov 2020 – Oct 2021 · Remote</h3>
-</div>
-
-**NOC Engineer**
-
-- Monitored enterprise fiber infrastructure spanning 25,000+ route miles; performed real-time triage via SNMP, syslog, and proprietary platforms; escalated security-relevant events and documented incident timelines.
-
-### Rook Security · 2018 – 2019 · Indianapolis, IN
-
-**Security Operations Center Analyst**
-
-- First dedicated security operations role at a regional MSSP: monitored and triaged security events, performed vulnerability scanning with Tenable Nessus, and escalated confirmed threats with written analysis. Position ended when the company ceased operations.
-
-### Earlier experience
-
-IT Contractor — Napa Balkamp (2018); Kinney Group (2018, Splunk environment). Subject Matter Expert, Radiology — IU Health (2014–2017). Utility Locator — USIC (2017). Technician — Comcast (2012–2014). Deputy Sheriff — Marion County Sheriff's Office (2009–2012), working under CJIS with daily incident documentation and evidence handling.
-
 ## Projects & Public Work
 
 Hands-on orchestration of AI coding agents and MCP-integrated automation platforms, including scheduled jobs, sandboxed execution, and credential-scoped automation. Public writing, tools, and repositories are linked in the sidebar.
