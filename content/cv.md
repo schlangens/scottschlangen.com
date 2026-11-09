@@ -63,7 +63,11 @@ Indianapolis, IN · Eastern Time
 
 ## Summary
 
-Security engineer with eight years in cybersecurity, currently the incident response lead and vulnerability management owner for municipal government clients as an MSSP subject matter expert. Builds the tooling a security program actually runs on: a Python vulnerability-reporting framework that cut monthly analysis from hours to under 30 seconds, a Rapid7 detection exception that ended a 154-ticket false-positive flood without losing coverage, and a public GitHub of self-built security tooling. Owned a 25+ domain cybersecurity risk program end to end for a city of 100,000 residents, raising its posture score 6.7% in six months. Works across detection engineering, vulnerability management, incident response, IAM, and GRC — with current hands-on experience running AI-agent and MCP-based automation platforms and a Microsoft security certification track (SC-300 through SC-100) alongside CISSP.
+I strive to build and protect essential services that people rely on, and keep them secure and resilient. For me that means city water treatment and wastewater plants, police and fire networks, courts, emergency operations and public utilities, the systems most people never think about until they stop working.
+
+Today I'm a senior security engineer at Resultant, a managed security services provider. I'm the security engineer for a city-county government serving 300,000+ residents, handling information security operations and incident response. Before that, at the City of Carmel, I owned the cybersecurity risk program across 25+ security policy domains for a city of 100,000+.
+
+I have fourteen years in information technology, eight of them in security, and I've personally operated every layer I'm now responsible for defending. I test that security controls do what they're supposed to do, and I document my work so other people can act on it. I earned my CISSP in 2026. I'm studying for the CCSP next, and I'm steering my career toward AI security.
 
 ## Core Competencies
 
