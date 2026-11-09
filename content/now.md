@@ -55,20 +55,29 @@ sidebar:
 
 ### Work
 
-- Senior Security Engineer at **Resultant** — MSSP subject matter expert for municipal government clients
-- Incident response lead and vulnerability management owner across multi-agency environments
-- Detection engineering and identity security with Rapid7, Microsoft Entra ID, CrowdStrike, and related platforms
+- Senior Security Engineer at **Resultant**, the MSSP subject matter expert for municipal government clients.
+- Incident response lead and vulnerability management owner across multi-agency environments.
+- Detection engineering and identity security with Rapid7, Microsoft Entra ID, CrowdStrike and related platforms.
 
 ### Learning
 
-- Earned **CISSP** (ISC2)
-- Working through Microsoft **SC-300**, **SC-200**, **SC-500**, and **SC-100** by end of 2026
-- Later: Databricks Generative AI Engineer and Google Cloud AI/ML through 2027
-- Building hands-on experience with AI coding agents and MCP-integrated automation platforms; the [SOAR lab](https://soardemo.scottslab.io) is the current test bed
+- Earned **CISSP** (ISC2) in 2026, now studying for **CCSP**.
+- Working through Microsoft **SC-300**, **SC-200**, **SC-500** and **SC-100**.
+- Working through Elastic's **Security for SIEM** learning plan.
+- Later, Databricks Generative AI Engineer and Google Cloud AI/ML through 2027.
+- Building hands-on experience with AI coding agents and MCP-integrated automation platforms. The [SOAR lab](https://soardemo.scottslab.io) is the current test bed.
+- Finishing a B.S. in Cybersecurity and Information Assurance at WGU, expected June 2027.
+
+### Community
+
+- Volunteer with the **Indiana Civilian Cyber Corps** (ICCC), the Indiana Adjutant General's cyber volunteer program.
+- **InfraGard Indiana** membership application pending.
+- Member of the **Cyber Leadership Institute**.
+- Completing induction into the **National Society of Leadership and Success**, WGU chapter.
 
 ### Base
 
-- Indianapolis, IN (Eastern Time)
-- Clear problems, honest trade-offs, and tooling operators will actually use
+- Indianapolis, IN (Eastern Time).
+- Clear problems, honest trade-offs, and tooling operators will actually use.
 
-*Last updated: September 2026*
+*Last updated November 2026*

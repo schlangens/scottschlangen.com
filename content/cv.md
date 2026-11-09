@@ -178,7 +178,7 @@ Hands-on orchestration of AI coding agents and MCP-integrated automation platfor
 
 ## Certifications
 
-**In progress:** Microsoft SC-300 · SC-200 · SC-500 · SC-100 (target: end of 2026)
+**In progress:** CCSP · Microsoft SC-300 · SC-200 · SC-500 · SC-100
 
 **Security:** CISSP · CompTIA CySA+ ce · CompTIA Security+ ce · CompTIA Security Analytics Professional (CSAP) · Blue Team Level 1 (BTL1) · Certified CyberDefender Level 2 (CCDL2) · Wazuh for Security Engineers · Ransomware Negotiation and Threat Intelligence
 
@@ -188,6 +188,13 @@ Hands-on orchestration of AI coding agents and MCP-integrated automation platfor
 
 **Roadmap:** Databricks Certified Generative AI Engineer and Google Cloud AI/ML track through 2027.
 
+## Affiliations
+
+- **Indiana Civilian Cyber Corps (ICCC)**, Volunteer, Aug 2026 to present.
+- **InfraGard Indiana**, membership application pending.
+- **Cyber Leadership Institute**, Member, Nov 2026 to present.
+- **National Society of Leadership and Success**, WGU chapter, induction in progress.
+
 ## Education
 
-**Western Governors University** — B.S. Cybersecurity and Information Assurance (in progress)
+**Western Governors University**, B.S. Cybersecurity and Information Assurance, expected June 2027
