@@ -63,23 +63,21 @@ Indianapolis, IN · Eastern Time
 
 ## Summary
 
-Security engineer with eight years in cybersecurity, currently the incident response lead and vulnerability management owner for municipal government clients as an MSSP subject matter expert. Builds the tooling a security program actually runs on: a Python vulnerability-reporting framework that cut monthly analysis from hours to under 30 seconds, a Rapid7 detection exception that ended a 154-ticket false-positive flood without losing coverage, and a public GitHub of self-built security tooling. Owned a 25+ domain cybersecurity risk program end to end for a city of 100,000 residents, raising its posture score 6.7% in six months. Works across detection engineering, vulnerability management, incident response, IAM, and GRC — with current hands-on experience running AI-agent and MCP-based automation platforms and a Microsoft security certification track (SC-300 through SC-100) alongside CISSP.
+I strive to build and protect essential services that people rely on, and keep them secure and resilient. For me that means city water treatment and wastewater plants, police and fire networks, courts, emergency operations and public utilities, the systems most people never think about until they stop working.
+
+Today I'm a senior security engineer at Resultant, a managed security services provider. I'm the security engineer for a city-county government serving 300,000+ residents, handling information security operations and incident response. Before that, at the City of Carmel, I owned the cybersecurity risk program across 25+ security policy domains for a city of 100,000+.
+
+I have fourteen years in information technology, eight of them in security, and I've personally operated every layer I'm now responsible for defending. I test that security controls do what they're supposed to do, and I document my work so other people can act on it. I earned my CISSP in 2026. I'm studying for the CCSP next, and I'm steering my career toward AI security.
 
 ## Core Competencies
 
-**Detection Engineering & SIEM** — Rapid7 InsightIDR · Microsoft Sentinel · Microsoft Defender XDR · Wazuh · MITRE ATT&CK mapping · alert tuning · detection rule authoring
-
-**Vulnerability Management** — Rapid7 InsightVM · Tenable Nessus · ConnectSecure · prioritization and remediation at 11,000+ finding scale
-
-**Security Automation** — Python reporting frameworks · scripted ingestion across 40+ segments · dual-format reporting · infrastructure automation
-
-**AI Agent & LLM Tooling** — AI coding agents · MCP-integrated automation · sandboxed execution · credential-scoped workflows
-
-**Incident Response** — IR lead for confirmed intrusions, ATO, BEC, and vendor email compromise · forensic triage · executive and insurer coordination
-
-**Identity & Access** — Microsoft Entra ID · Conditional Access · Active Directory · Duo MFA · Varonis · RBAC / least privilege
-
-**Compliance & Risk (GRC)** — NIST CSF 2.0 · CIS Controls · HIPAA · PCI DSS · ISO 27001 · CJIS · Cynomi risk register · policy authoring
+- Detection engineering and SIEM with Rapid7 InsightIDR, Microsoft Sentinel, Microsoft Defender XDR and Wazuh, including MITRE ATT&CK mapping, alert tuning and detection rule authoring.
+- Vulnerability management with Rapid7 InsightVM, Tenable Nessus and ConnectSecure, prioritizing and remediating more than 11,000 findings.
+- Security automation with Python reporting frameworks that ingest exports from 40+ network segments, plus infrastructure automation.
+- AI agent and LLM tooling, including AI coding agents and MCP-integrated automation with sandboxed execution and credential-scoped workflows.
+- Incident response, leading confirmed intrusions, account takeovers, business email compromise and vendor email compromise from forensic triage through executive and insurer briefings.
+- Identity and access with Microsoft Entra ID, Conditional Access, Active Directory, Duo MFA and Varonis, built on role-based access and least privilege.
+- Compliance and risk across NIST CSF 2.0, CIS Controls, HIPAA, PCI DSS, ISO 27001 and CJIS, including a Cynomi risk register and policy authoring.
 
 ## Experience
 
